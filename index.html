@@ -12,8 +12,8 @@
 </head>
 <body>
     <header class="header">
-      <h3 class="header__slogan">THE ULTIMATE LUXURY EXPERIENCE</h3>
-      <h1 class="header__title">The Perfect Base For You</h1>
+      <h3 class="section-name">THE ULTIMATE LUXURY EXPERIENCE</h3>
+      <h1 class="section-title">The Perfect Base For You</h1>
       <div class="header__buttons-container">
         <button class="button">LEARN MORE</button>
         <button class="button">TAKE A TOUR</button>
@@ -28,8 +28,8 @@
     </header>
     <section class="about">
       <div class="about_background">
-        <p class="about__name">ABOUT US</p>
-        <h1 class="about__title">Discover Our Underground</h1>
+        <p class="section-name">ABOUT US</p>
+        <h1 class="section-title">Discover Our Underground</h1>
         <p class="about__text">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
@@ -48,7 +48,8 @@
       </div>
     </section>
     <section class="rooms">
-      <h1 class="rooms__title">Hand Picked Rooms</h1>
+      <p class="section-name">ROOMS</p>
+      <h1 class="section-title">Hand Picked Rooms</h1>
       <div class="icon-bar">icons here</div> 
       <!-- Slider main container -->
       <div class="swiper">
@@ -76,8 +77,8 @@
       <div class="swiper-scrollbar"></div>
     </div>
     <div class="room-description">
-      <h2 class="room-description__title">Minimal Duplex Room</h2>
-      <p class="room-description__description">
+      <h2 class="section-title">Minimal Duplex Room</h2>
+      <p class="description">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.
       </p>
       <p class="room-description__price">345</p>
@@ -85,16 +86,46 @@
     </div>
     </section>
     <section class="intro-video">
-      <p class="intro-video__name">INTRO VIDEO</p>
-      <h2 class="intro-video__title">Meet With Our Luxury Place</h2>
+      <p class="section-name">INTRO VIDEO</p>
+      <h2 class="section-title">Meet With Our Luxury Place</h2>
       <p class="intro-video__description">
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat you have to understand this.
       </p>
       <img class="image" src="assets/HotelRoom.jpeg"/>
       <button class="button">BOOK NOW</button>
     </section>
-    <section>
+    <section class="facilities">
+      <p class="section-name">FACILITIES</p>
+      <h2 class="section-title">Core Features</h2>
+      <!-- Slider main container -->
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide core-feature">
+            <img class="image" src="./assets/Ratings.jpeg"/>
+            <p class="core-feature__title">Have High Ratings</p>
+            <p class="core-feature__description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+            </p>
+          </div>
+          <div class="swiper-slide">
+            <img src="../assets/HotelRoom2.jpeg"/>
+          </div>
+          <div class="swiper-slide">
+            <img src="../assets/HotelRoom3.jpeg"/>
+          </div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
       
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
     </section>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
