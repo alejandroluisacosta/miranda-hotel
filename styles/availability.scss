@@ -1,0 +1,31 @@
+.availability {
+    font-family: "Roboto";
+    background-color: #222222;
+    padding: 36px 5%;
+    &__label {
+        display: block;
+        margin-bottom: 23px;
+        color: white;
+        font-weight: 700;
+    }
+    &__input {
+        display: inline-block;
+        color: #686868;
+        font-size: 14px;
+        transform: translateY(-15%);
+    }
+    span {
+        color: #BEAD8E;
+        font-size: 16px;
+        margin-right: 1%;
+    }
+    hr {
+        border-color: #BEAD8E;
+        margin-bottom: 30px;
+    }
+    button {
+        max-width: 75%;
+        padding: 23px 25px;
+        margin-top: 12px;
+    }
+}

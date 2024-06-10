@@ -44,7 +44,7 @@ button {
     }
 }
 
-.button {
+button {
     font-family: "Archivo";
     font-size: 14px;
     font-weight: 700;
@@ -54,7 +54,7 @@ button {
     padding: 23px 45px;
     background-color: #BEAD8E;
     color: white;
-    border: 2px solid #FFFFFF54
+    border: unset;
 }
 
-@import 'index', 'swiper', 'base', 'header'
+@import 'index', 'swiper', 'base', 'header', 'availability'
