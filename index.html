@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hotel Miranda</title>
+    <link rel="stylesheet" href="../styles/style.css"/>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+</head>
+<body>
+    <header class="header">
+      <h3 class="header__slogan">THE ULTIMATE LUXURY EXPERIENCE</h3>
+      <h1 class="header__title">The Perfect Base For You</h1>
+      <div class="header__buttons-container">
+        <button class="button">LEARN MORE</button>
+        <button class="button">TAKE A TOUR</button>
+      </div>
+      <form class="availability">
+        <label class="availability__label" for="arrival-date">Arrival Date</label>
+        <input class="availability__input" id="arrival-date" type="date"/>
+        <label class="_availability__label" for="departure-date">Departure Date</label>
+        <input class="availability__input" id="departure-date" type="date"/>
+        <button class="availability__submit" type="submit">CHECK AVAILABILITY</button>
+      </form>
+    </header>
+    <section class="about">
+      <div class="about_background">
+        <p class="about__name">ABOUT US</p>
+        <h1 class="about__title">Discover Our Underground</h1>
+        <p class="about__text">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <button class="about__button">BOOK NOW</button>
+      </div>
+      <img class="image" src="../assets/HotelRoom2.jpeg"/>
+      <div class="about-feature-container">
+        <img class="about-feature-container__icon" src="../assets/StrongTeam.jpg"/>
+        <h3 class="about-feature-container__title">Strong Team</h3>
+        <p class="about-feature-container__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+      </div>
+      <div class="about-feature-container">
+        <img class="about-feature-container__icon" src="./assets/ArrowCalendar.jpg"/>
+        <h3 class="about-feature-container__title">Luxury Room</h3>
+        <p class="about-feature-container__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor.</p>
+      </div>
+    </section>
+    <section class="rooms">
+      <h1 class="rooms__title">Hand Picked Rooms</h1>
+      <div class="icon-bar">icons here</div> 
+      <!-- Slider main container -->
+      <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <img src="../assets/HotelRoom.jpeg"/>
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/HotelRoom2.jpeg"/>
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/HotelRoom3.jpeg"/>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+    
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    
+      <!-- If we need scrollbar -->
+      <div class="swiper-scrollbar"></div>
+    </div>
+    </section>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="../scripts/swiper.js"></script>
+</html>
