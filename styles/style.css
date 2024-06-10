@@ -10,6 +10,10 @@ h1 {
   font-weight: 400;
 }
 
+h1, p {
+  margin: 0;
+}
+
 button {
   font-family: "Archivo";
 }
@@ -29,14 +33,58 @@ button {
 .swiper {
   width: 600px;
   height: 300px;
+  display: none !important;
 }
 
 img {
   width: 100%;
 }
 
-.header {
+.base {
   background-color: #333333;
+}
+
+.header {
+  margin: 17px 0 17px 5.5%;
+  display: flex;
+}
+
+.hamburger-menu {
+  display: inline-block;
+  margin-top: 11px;
+  margin-right: 8.5%;
+}
+
+.logo {
+  display: inline-block;
+  box-shadow: 0px 14px 24px 0px rgba(139, 139, 139, 0.2509803922);
+  font-family: "Archivo";
+  font-weight: 700;
+  font-size: 16px;
+  padding: 10px 12px;
+  padding-bottom: 0;
+  margin-right: 3.6%;
+}
+.logo p {
+  margin: 0;
+}
+
+.hotel-name {
+  display: inline-block;
+  font-family: "Archivo";
+  font-size: 14px;
+  margin-top: 8px;
+  margin-right: 27%;
+}
+
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-top: 8px;
+}
+.icon--profile {
+  margin-right: 6.5%;
 }
 
 /*# sourceMappingURL=style.css.map */
