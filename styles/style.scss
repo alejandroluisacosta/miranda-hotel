@@ -1,1 +1,22 @@
-@import 'index', 'swiper' 
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Archivo;
+}
+
+
+h1 {
+    font-family: "Old Standard TT";
+    font-weight: 400;
+}
+
+button {
+    font-family: "Archivo";
+}
+
+.section-name {
+    font-family: "Archivo";
+}
+
+@import 'index', 'swiper', 'header'

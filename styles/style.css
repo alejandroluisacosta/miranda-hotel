@@ -1,5 +1,29 @@
+html {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Archivo;
+}
+
 h1 {
-  color: blue;
+  font-family: "Old Standard TT";
+  font-weight: 400;
+}
+
+button {
+  font-family: "Archivo";
+}
+
+.section-name {
+  font-family: "Archivo";
+}
+
+.header__title {
+  color: white;
+}
+
+.section-name--1 {
+  color: white;
 }
 
 .swiper {
@@ -9,6 +33,10 @@ h1 {
 
 img {
   width: 100%;
+}
+
+.header {
+  background-color: #333333;
 }
 
 /*# sourceMappingURL=style.css.map */
