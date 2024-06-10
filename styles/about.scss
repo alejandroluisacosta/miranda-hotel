@@ -24,4 +24,13 @@
         margin-left: 50%;
         transform: translate(-50%, -32.5%);
     }
+    &-feature-container {
+        text-align: center;
+    }
+    .icon {
+        width: 68px;
+        height: 50px;
+        margin-left: unset;
+        transform: unset;
+    }
 }
