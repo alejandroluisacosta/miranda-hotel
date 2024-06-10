@@ -11,7 +11,6 @@ body {
 
 h1 {
   font-family: "Old Standard TT";
-  font-weight: 400;
 }
 
 h1, p {
@@ -30,6 +29,8 @@ button {
   line-height: 18px;
   letter-spacing: 2.7999999523px;
   max-width: 60%;
+  margin-bottom: 24px;
+  color: #777777;
 }
 .section-name--1 {
   color: white;
@@ -39,6 +40,7 @@ button {
   font-size: 56px;
   line-height: 60px;
   letter-spacing: -1.2000000477px;
+  font-weight: 400;
 }
 .section-title--1 {
   color: white;
@@ -157,6 +159,34 @@ img {
   max-width: 75%;
   padding: 23px 25px;
   margin-top: 12px;
+}
+
+.about {
+  padding-top: 60px;
+}
+.about__background {
+  padding: 38px 5.3% 175px;
+  background-color: #F9F9F9;
+}
+.about .section-name {
+  margin-bottom: 32px;
+}
+.about .section-title {
+  margin-bottom: 16px;
+}
+.about__text {
+  font-family: "Archivo";
+  font-size: 14px;
+  color: #777777;
+  font-family: Archivo;
+  line-height: 24px;
+  margin-bottom: 24px;
+}
+.about img {
+  width: 270px;
+  height: 300px;
+  margin-left: 50%;
+  transform: translate(-50%, -32.5%);
 }
 
 /*# sourceMappingURL=style.css.map */

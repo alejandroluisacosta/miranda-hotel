@@ -1,0 +1,27 @@
+.about {
+    padding-top: 60px;
+    &__background {
+        padding: 38px 5.3% 175px;
+        background-color: #F9F9F9;
+    }
+    .section-name {
+        margin-bottom: 32px;
+    }
+    .section-title {
+        margin-bottom: 16px;
+    }
+    &__text {
+        font-family: "Archivo";
+        font-size: 14px;
+        color: #777777;
+        font-family: Archivo;
+        line-height: 24px;
+        margin-bottom: 24px;
+    }
+    img {
+        width: 270px;
+        height: 300px;
+        margin-left: 50%;
+        transform: translate(-50%, -32.5%);
+    }
+}

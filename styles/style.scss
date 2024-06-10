@@ -11,7 +11,6 @@ body {
 
 h1 {
     font-family: "Old Standard TT";
-    font-weight: 400;
 }
 
 h1, p {
@@ -30,6 +29,8 @@ button {
     line-height: 18px;
     letter-spacing: 2.799999952316284px;
     max-width: 60%;
+    margin-bottom: 24px;
+    color: #777777;
     &--1 {
         color: white;
     }
@@ -39,6 +40,7 @@ button {
     font-size: 56px;
     line-height: 60px;
     letter-spacing: -1.2000000476837158px;
+    font-weight: 400;
     &--1 {
         color: white;
     }
@@ -57,4 +59,4 @@ button {
     border: unset;
 }
 
-@import 'index', 'swiper', 'base', 'header', 'availability'
+@import 'index', 'swiper', 'base', 'header', 'availability', 'about'
