@@ -1,3 +1,14 @@
 .base {
     background-color: #333333;
+    padding: 75px 4%;
+    .section-name, .section-title {
+        margin-bottom: 40px;
+    }
+    &__button--1 {
+        margin-bottom: 24px;
+    }
+    &__button--2 {
+        background-color: unset;
+    }
 }
+

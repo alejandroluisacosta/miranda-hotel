@@ -5,6 +5,9 @@ html {
     font-family: Archivo;
 }
 
+body {
+    margin: 0;
+}
 
 h1 {
     font-family: "Old Standard TT";
@@ -21,7 +24,37 @@ button {
 
 .section-name {
     font-family: "Archivo";
+    font-size: 13px;
+    font-family: Archivo;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 2.799999952316284px;
+    max-width: 60%;
+    &--1 {
+        color: white;
+    }
 }
 
+.section-title {
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: -1.2000000476837158px;
+    &--1 {
+        color: white;
+    }
+}
+
+.button {
+    font-family: "Archivo";
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 15.23px;
+    letter-spacing: 2.799999952316284px;
+    text-align: left;
+    padding: 23px 45px;
+    background-color: #BEAD8E;
+    color: white;
+    border: 2px solid #FFFFFF54
+}
 
 @import 'index', 'swiper', 'base', 'header'

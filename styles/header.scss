@@ -1,11 +1,16 @@
 .header {
     margin: 17px 0 17px 5.5%;
     display: flex;
+    align-items: center;
+    &__icons-container {
+        position: absolute;
+        right: 10%;
+        display: flex;
+    }
 }
 
 .hamburger-menu {
     display: inline-block;
-    margin-top: 11px;
     margin-right: 8.5%;
 }
 
@@ -16,7 +21,6 @@
     font-weight: 700;
     font-size: 16px;
     padding: 10px 12px;
-    padding-bottom: 0;
     margin-right: 3.6%;
     p {
         margin: 0;
@@ -27,16 +31,14 @@
     display: inline-block;
     font-family: "Archivo";
     font-size: 14px;
-    margin-top: 8px;
-    margin-right: 27%;
 }
 
 .icon {
     display: inline-block;
+    margin-left: auto;
     width: 24px;
     height: 24px;
-    margin-top: 8px;
     &--profile {
-        margin-right: 6.5%;
+        margin-right: 30%;
     }
 }

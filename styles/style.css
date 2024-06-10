@@ -5,6 +5,10 @@ html {
   font-family: Archivo;
 }
 
+body {
+  margin: 0;
+}
+
 h1 {
   font-family: "Old Standard TT";
   font-weight: 400;
@@ -20,14 +24,37 @@ button {
 
 .section-name {
   font-family: "Archivo";
+  font-size: 13px;
+  font-family: Archivo;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 2.7999999523px;
+  max-width: 60%;
 }
-
-.header__title {
-  color: white;
-}
-
 .section-name--1 {
   color: white;
+}
+
+.section-title {
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: -1.2000000477px;
+}
+.section-title--1 {
+  color: white;
+}
+
+.button {
+  font-family: "Archivo";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 15.23px;
+  letter-spacing: 2.7999999523px;
+  text-align: left;
+  padding: 23px 45px;
+  background-color: #BEAD8E;
+  color: white;
+  border: 2px solid rgba(255, 255, 255, 0.3294117647);
 }
 
 .swiper {
@@ -42,16 +69,31 @@ img {
 
 .base {
   background-color: #333333;
+  padding: 75px 4%;
+}
+.base .section-name, .base .section-title {
+  margin-bottom: 40px;
+}
+.base__button--1 {
+  margin-bottom: 24px;
+}
+.base__button--2 {
+  background-color: unset;
 }
 
 .header {
   margin: 17px 0 17px 5.5%;
   display: flex;
+  align-items: center;
+}
+.header__icons-container {
+  position: absolute;
+  right: 10%;
+  display: flex;
 }
 
 .hamburger-menu {
   display: inline-block;
-  margin-top: 11px;
   margin-right: 8.5%;
 }
 
@@ -62,7 +104,6 @@ img {
   font-weight: 700;
   font-size: 16px;
   padding: 10px 12px;
-  padding-bottom: 0;
   margin-right: 3.6%;
 }
 .logo p {
@@ -73,18 +114,16 @@ img {
   display: inline-block;
   font-family: "Archivo";
   font-size: 14px;
-  margin-top: 8px;
-  margin-right: 27%;
 }
 
 .icon {
   display: inline-block;
+  margin-left: auto;
   width: 24px;
   height: 24px;
-  margin-top: 8px;
 }
 .icon--profile {
-  margin-right: 6.5%;
+  margin-right: 30%;
 }
 
 /*# sourceMappingURL=style.css.map */
