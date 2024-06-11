@@ -19,3 +19,19 @@ const swiper = new Swiper('.swiper', {
       el: '.swiper-scrollbar',
     },
   });
+
+  const swiperAuto = new Swiper('.swiper--auto', {
+    // Optional parameters
+    direction: 'horizontal',
+    loop: true,
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+    },
+
+    autoplay: {
+      delay: 3000,
+      reverseDirection: true,
+    },  
+  });

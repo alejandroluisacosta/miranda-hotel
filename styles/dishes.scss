@@ -1,0 +1,25 @@
+.dish {
+    display: flex;
+    margin-bottom: 16px;
+    img {
+        width: 120px;
+        height: 120px;
+        margin-right: 30px;
+    }
+    .name {
+        margin: 0;
+        margin-bottom: 12px;
+        font-family: Old Standard TT;
+        color: var(--miranda-black);
+        font-size: 24px;
+        font-weight: 400;
+        line-height: 24px;
+        letter-spacing: -0.7200000286102295px;
+    }
+    .description {
+        font-family: Roboto;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+}

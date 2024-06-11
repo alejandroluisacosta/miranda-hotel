@@ -1,0 +1,32 @@
+.menu {
+    padding: 115px 8.5% 0;
+    margin-bottom: 60px;
+    .donut {
+        position: absolute;
+        right: 0;
+        margin-top: -115px;
+        width: 115px;
+        height: 115px;
+    }
+    .section-name {
+        margin-bottom: 24px;
+    }
+    .section-title {
+        margin-bottom: 32px;
+    }
+    .dish--last {
+        margin-bottom: 24px;
+    }
+    &__buttons-container {
+        display: flex;
+        justify-content: flex-end;
+        gap: 16px;
+    }
+    button {
+        padding: 13px 15px;
+    }
+    .icon {
+        font-size: 12px;
+    }
+
+}
