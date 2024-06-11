@@ -2,6 +2,7 @@
     --miranda-black: #222222;
     --miranda-brown: #BDAC8D;
     --miranda-silver: #C2C2C2;
+    --miranda-gray: #777777;
 }
 
 html {
@@ -70,4 +71,4 @@ button {
     border: unset;
 }
 
-@import 'index', 'swiper', 'base', 'header', 'availability', 'about', 'brand-features', 'rooms', 'icon-bar', 'room-description-card', 'intro-video', 'facilities', 'menu', 'dishes', 'carousel', 'facts'
+@import 'index', 'swiper', 'base', 'header', 'availability', 'about', 'brand-features', 'rooms', 'icon-bar', 'room-description-card', 'intro-video', 'facilities', 'menu', 'dishes', 'carousel', 'facts', 'footer', 'services', 'contact'

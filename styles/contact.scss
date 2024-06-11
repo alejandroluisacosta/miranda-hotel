@@ -1,0 +1,31 @@
+.contact {
+    &__title {
+        font-family: Old Standard TT;
+        font-size: 24px;
+        font-weight: 400;
+        margin-bottom: 34px;
+    }
+    .contact-container {
+        display: flex;
+        margin-bottom: 60px;
+        &--last {
+            margin-bottom: unset;
+        }
+    }
+    .icon {
+        width: 40px;
+        margin-right: 22px;
+    }
+    .name, .value {
+        color: var(--miranda-gray);
+        font-weight: 400;
+    }
+    .name {
+        font-family: Old Standard TT;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .value {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,53 @@
+.footer {
+    padding: 60px 0 0;
+    &__background {
+        padding: 0 5%;
+        background-image: url('/assets/Footer-Background.jpeg');
+    }
+    .logo-container {
+        display: flex;
+        align-items: center;
+        margin-bottom: 47px;
+    }
+    .logo {
+        background-color: var(--miranda-brown);
+        color: white;
+        font-size: 40px;
+        font-weight: 700;
+        text-align: center;
+        padding: 20px;
+        margin-right: 28px;
+    }
+    .hotel-name {
+        width: 137px;
+        height: 56px;
+    }
+    .description {
+        font-weight: 400;
+        font-size: 16;
+        line-height: 26px;
+        color: var(--miranda-gray);
+        margin-bottom: 32px;
+    }
+    .social {
+        display: flex;
+        justify-content: space-between;
+        width: 240px;
+        margin-bottom: 32px;
+        .icon-container {
+            width: 40px;
+            height: 40px;
+            background-color: #F8F8F8;
+            text-align: center;
+            &--twitter {
+                background-color: var(--miranda-brown);
+            }
+            .icon {
+                width: 24px;
+                height: 24px;
+                margin-top: 50%;
+                transform: translateY(-50%);
+            }
+        }
+    }
+}

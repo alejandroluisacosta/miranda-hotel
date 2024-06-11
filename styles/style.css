@@ -2,6 +2,7 @@
   --miranda-black: #222222;
   --miranda-brown: #BDAC8D;
   --miranda-silver: #C2C2C2;
+  --miranda-gray: #777777;
 }
 
 html {
@@ -138,9 +139,6 @@ button {
   font-size: 16px;
   padding: 10px 12px;
   margin-right: 3.6%;
-}
-.header .logo p {
-  margin: 0;
 }
 .header .hotel-name {
   display: inline-block;
@@ -498,6 +496,108 @@ button {
 }
 .facts .text {
   color: #999999;
+}
+
+.footer {
+  padding: 60px 0 0;
+}
+.footer__background {
+  padding: 0 5%;
+  background-image: url("/assets/Footer-Background.jpeg");
+}
+.footer .logo-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 47px;
+}
+.footer .logo {
+  background-color: var(--miranda-brown);
+  color: white;
+  font-size: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px;
+  margin-right: 28px;
+}
+.footer .hotel-name {
+  width: 137px;
+  height: 56px;
+}
+.footer .description {
+  font-weight: 400;
+  font-size: 16;
+  line-height: 26px;
+  color: var(--miranda-gray);
+  margin-bottom: 32px;
+}
+.footer .social {
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  margin-bottom: 32px;
+}
+.footer .social .icon-container {
+  width: 40px;
+  height: 40px;
+  background-color: #F8F8F8;
+  text-align: center;
+}
+.footer .social .icon-container--twitter {
+  background-color: var(--miranda-brown);
+}
+.footer .social .icon-container .icon {
+  width: 24px;
+  height: 24px;
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+.services {
+  font-size: 24px;
+  font-family: Old Standard TT;
+  margin-bottom: 24px;
+}
+
+.services-container {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 32px;
+}
+.services-container p {
+  grid-column: span 1;
+  font-family: Roboto;
+  margin-bottom: 48px;
+  color: var(--miranda-gray);
+}
+
+.contact__title {
+  font-family: Old Standard TT;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 34px;
+}
+.contact .contact-container {
+  display: flex;
+  margin-bottom: 60px;
+}
+.contact .contact-container--last {
+  margin-bottom: unset;
+}
+.contact .icon {
+  width: 40px;
+  margin-right: 22px;
+}
+.contact .name, .contact .value {
+  color: var(--miranda-gray);
+  font-weight: 400;
+}
+.contact .name {
+  font-family: Old Standard TT;
+  font-size: 20px;
+  line-height: 24px;
+}
+.contact .value {
+  font-size: 14px;
 }
 
 /*# sourceMappingURL=style.css.map */
