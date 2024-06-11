@@ -7,14 +7,15 @@ html {
 
 body {
   margin: 0;
+  overflow-x: hidden;
 }
 
-h1 {
-  font-family: "Old Standard TT";
-}
-
-h1, p {
+h1, h2, p {
   margin: 0;
+}
+
+.hidden {
+  display: none;
 }
 
 button {
@@ -37,6 +38,7 @@ button {
 }
 
 .section-title {
+  font-family: "Old Standard TT";
   font-size: 56px;
   line-height: 60px;
   letter-spacing: -1.2000000477px;
@@ -236,8 +238,6 @@ button {
 .brand-features__feature-container img {
   width: 270px;
   height: 300px;
-  margin-left: 50%;
-  transform: translateX(-50%);
   margin-bottom: 54px;
 }
 .brand-features__feature-container .title {
@@ -278,6 +278,27 @@ button {
   width: 16px;
   height: 16px;
   margin-left: unset;
+}
+
+.room-description-card {
+  background-color: white;
+  width: 335px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 19px 24px;
+}
+.room-description-card--home {
+  position: relative;
+  transform: translateY(-25%);
+  z-index: 2;
+}
+.room-description-card__title {
+  font-size: 28px;
+  font-family: Old Standard TT;
+  font-weight: 400;
+}
+.room-description-card .description {
+  color: #777777;
 }
 
 /*# sourceMappingURL=style.css.map */

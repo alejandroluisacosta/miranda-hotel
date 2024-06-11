@@ -1,0 +1,20 @@
+.room-description-card {
+    background-color: white;
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 19px 24px;
+    &--home {
+        position: relative;
+        transform: translateY(-25%);
+        z-index: 2;
+    }
+    &__title {
+        font-size: 28px;
+        font-family: Old Standard TT;
+        font-weight: 400;
+    }
+    .description {
+        color: #777777;
+    }
+}

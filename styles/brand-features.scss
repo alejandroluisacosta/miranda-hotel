@@ -1,4 +1,3 @@
-
 .brand-features {
     width: 100%;
     max-width: 270px;
@@ -21,7 +20,7 @@
             margin-bottom: 30px;
             margin-left: unset;
             transform: unset;
-            &--diluted {
+            &--diluted {    
                 position: absolute;
                 margin-left: unset;
                 transform: unset;
@@ -38,8 +37,6 @@
         img {
             width: 270px;
             height: 300px;
-            margin-left: 50%;
-            transform: translateX(-50%);
             margin-bottom: 54px;
         }
         .title {
