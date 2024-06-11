@@ -74,6 +74,9 @@ button {
   width: 100%;
   height: 300px;
 }
+.swiper--facilities {
+  height: unset;
+}
 .swiper img {
   width: 100%;
   height: 100%;
@@ -93,6 +96,9 @@ button {
 .swiper .swiper-button-next.disabled {
   background-color: white;
   color: black;
+}
+.swiper-pagination-bullet {
+  background-color: var(--miranda-brown) !important;
 }
 
 .base {
@@ -350,6 +356,50 @@ button {
 .intro-video video {
   width: 100%;
   margin-bottom: 36px;
+}
+
+.facilities {
+  padding-top: 60px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.facilities .section-title {
+  margin-bottom: 32px;
+}
+.facilities .swiper-wrapper {
+  text-align: left;
+}
+.facilities .slide-container {
+  padding: 81px 38px 43px;
+}
+.facilities .icon {
+  width: 70px;
+  height: 70px;
+  margin-bottom: 38px;
+}
+.facilities .number {
+  position: absolute;
+  top: 0;
+  right: 8.5%;
+  font-size: 120px;
+  font-weight: 700;
+  color: rgba(34, 34, 34, 0.0392156863);
+  z-index: 3;
+}
+.facilities .title {
+  font-family: Old Standard TT;
+  font-size: 30px;
+  margin-bottom: 28px;
+}
+.facilities .description {
+  max-width: 60%;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--miranda-silver);
+}
+.facilities .swiper-pagination {
+  position: absolute;
+  bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

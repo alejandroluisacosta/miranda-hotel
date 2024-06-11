@@ -1,6 +1,9 @@
 .swiper {
     width: 100%;
     height: 300px;
+    &--facilities {
+        height: unset;
+    }
     img {
         width: 100%;
         height: 100%;
@@ -20,5 +23,8 @@
     .swiper-button-next.disabled {
         background-color: white;
         color: black
+    }
+    &-pagination-bullet {
+        background-color: var(--miranda-brown) !important;
     }
 }

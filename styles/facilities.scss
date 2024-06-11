@@ -1,0 +1,43 @@
+.facilities {
+    padding-top: 60px;
+    text-align: center;
+    margin-bottom: 60px;
+    .section-title {
+        margin-bottom: 32px;
+    }
+    .swiper-wrapper {
+        text-align: left;
+    }
+    .slide-container {
+        padding: 81px 38px 43px; 
+    }
+    .icon {
+        width: 70px;
+        height: 70px;
+        margin-bottom: 38px;
+    }
+    .number {
+        position: absolute;
+        top: 0;
+        right: 8.5%;
+        font-size: 120px;
+        font-weight: 700;
+        color: #2222220A;
+        z-index: 3;
+    }
+    .title {
+        font-family: Old Standard TT;
+        font-size: 30px;
+        margin-bottom: 28px;
+    }
+    .description {
+        max-width: 60%;
+        font-size: 14px;
+        line-height: 24px;
+        color: var(--miranda-silver);
+    }
+    .swiper-pagination {
+        position: absolute;
+        bottom: 0;
+    }
+}
