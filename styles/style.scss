@@ -1,3 +1,9 @@
+:root {
+    --miranda-black: #222222;
+    --miranda-brown: #BDAC8D;
+    --miranda-silver: #C2C2C2;
+}
+
 html {
     box-sizing: border-box;
     margin: 0;
@@ -7,7 +13,6 @@ html {
 
 body {
     margin: 0;
-    overflow-x: hidden;
 }
 
 h1, h2, p {
@@ -29,10 +34,10 @@ button {
     font-weight: 700;
     line-height: 18px;
     letter-spacing: 2.799999952316284px;
-    max-width: 60%;
     margin-bottom: 24px;
     color: #777777;
     &--1 {
+        max-width: 60%;
         color: white;
     }
 }
@@ -48,6 +53,10 @@ button {
     }
 }
 
+img {
+    width: 100%;
+}
+
 button {
     font-family: "Archivo";
     font-size: 14px;
@@ -61,4 +70,4 @@ button {
     border: unset;
 }
 
-@import 'index', 'swiper', 'base', 'header', 'availability', 'about', 'brand-features', 'rooms', 'icon-bar', 'room-description-card'
+@import 'index', 'swiper', 'base', 'header', 'availability', 'about', 'brand-features', 'rooms', 'icon-bar', 'room-description-card', 'intro-video'

@@ -1,3 +1,9 @@
+:root {
+  --miranda-black: #222222;
+  --miranda-brown: #BDAC8D;
+  --miranda-silver: #C2C2C2;
+}
+
 html {
   box-sizing: border-box;
   margin: 0;
@@ -7,7 +13,6 @@ html {
 
 body {
   margin: 0;
-  overflow-x: hidden;
 }
 
 h1, h2, p {
@@ -29,11 +34,11 @@ button {
   font-weight: 700;
   line-height: 18px;
   letter-spacing: 2.7999999523px;
-  max-width: 60%;
   margin-bottom: 24px;
   color: #777777;
 }
 .section-name--1 {
+  max-width: 60%;
   color: white;
 }
 
@@ -46,6 +51,10 @@ button {
 }
 .section-title--1 {
   color: white;
+}
+
+img {
+  width: 100%;
 }
 
 button {
@@ -282,10 +291,12 @@ button {
 
 .room-description-card {
   background-color: white;
-  width: 335px;
+  max-width: 335px;
   margin-left: auto;
   margin-right: auto;
   padding: 19px 24px;
+  box-sizing: border-box;
+  text-align: center;
 }
 .room-description-card--home {
   position: relative;
@@ -296,9 +307,49 @@ button {
   font-size: 28px;
   font-family: Old Standard TT;
   font-weight: 400;
+  margin-bottom: 12px;
 }
 .room-description-card .description {
+  font-size: 14px;
   color: #777777;
+  margin-bottom: 12px;
+}
+.room-description-card__price, .room-description-card__divisor {
+  display: inline-block;
+  color: #BEAD8E;
+  font-weight: 700;
+}
+.room-description-card__price {
+  font-size: 32px;
+}
+.room-description-card__divisor {
+  font-weight: 13px;
+}
+
+.intro-video {
+  background-color: var(--miranda-black);
+  padding: 64px 5% 48px;
+}
+.intro-video .section-name {
+  color: var(--miranda-brown);
+  margin-bottom: 32px;
+}
+.intro-video .section-title {
+  color: white;
+  max-width: 85%;
+  margin-bottom: 16px;
+}
+.intro-video .description {
+  font-size: 14px;
+  color: var(--miranda-silver);
+  font-family: Archivo;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 32px;
+}
+.intro-video video {
+  width: 100%;
+  margin-bottom: 36px;
 }
 
 /*# sourceMappingURL=style.css.map */

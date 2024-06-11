@@ -1,0 +1,25 @@
+.intro-video {
+    background-color: var(--miranda-black);
+    padding: 64px 5% 48px;
+    .section-name {
+        color: var(--miranda-brown);
+        margin-bottom: 32px;
+    }
+    .section-title {
+        color: white;
+        max-width: 85%;
+        margin-bottom: 16px;
+    }
+    .description {
+        font-size: 14px;
+        color: var(--miranda-silver);
+        font-family: Archivo;
+        font-weight: 400;
+        line-height: 24px;
+        margin-bottom: 32px;
+    }
+    video {
+        width: 100%;
+        margin-bottom: 36px;
+    }
+}

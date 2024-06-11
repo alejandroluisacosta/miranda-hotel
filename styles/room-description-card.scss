@@ -1,9 +1,11 @@
 .room-description-card {
     background-color: white;
-    width: 335px;
+    max-width: 335px;
     margin-left: auto;
     margin-right: auto;
     padding: 19px 24px;
+    box-sizing: border-box;
+    text-align: center;
     &--home {
         position: relative;
         transform: translateY(-25%);
@@ -13,8 +15,22 @@
         font-size: 28px;
         font-family: Old Standard TT;
         font-weight: 400;
+        margin-bottom: 12px;
     }
     .description {
+        font-size: 14px;
         color: #777777;
+        margin-bottom: 12px;
+    }
+    &__price, &__divisor {
+        display: inline-block;
+        color: #BEAD8E;
+        font-weight: 700;
+    }
+    &__price {
+        font-size: 32px;
+    }
+    &__divisor {
+        font-weight: 13px;
     }
 }
