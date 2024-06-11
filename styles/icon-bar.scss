@@ -1,13 +1,15 @@
 .icon-bar {
+    position: relative;
     display: flex;
     justify-content: space-between;
     width: 256px;
+    z-index: 2;
+    background-color: white;
     margin: auto;
-    .icon-container {
+    padding: 15px 24px;
+    .icon {
         width: 16px;
         height: 16px;
-    }
-    .icon {
-
+        margin-left: unset;
     }
 }
