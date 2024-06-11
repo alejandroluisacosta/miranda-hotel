@@ -581,7 +581,7 @@ button {
   margin-bottom: 60px;
 }
 .contact .contact-container--last {
-  margin-bottom: unset;
+  margin-bottom: 32px;
 }
 .contact .icon {
   width: 40px;
@@ -598,6 +598,22 @@ button {
 }
 .contact .value {
   font-size: 14px;
+}
+
+.legal-info {
+  padding: 16px 20px;
+  background-color: #F8F8F8;
+}
+.legal-info p {
+  font-family: Roboto;
+  color: var(--miranda-black);
+  font-weight: 700;
+}
+.legal-info .copyright {
+  margin-bottom: 24px;
+}
+.legal-info .policies-container {
+  display: flex;
 }
 
 /*# sourceMappingURL=style.css.map */

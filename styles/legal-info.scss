@@ -1,0 +1,15 @@
+.legal-info {
+    padding: 16px 20px;
+    background-color: #F8F8F8;
+    p {
+        font-family: Roboto;
+        color: var(--miranda-black);
+        font-weight: 700;
+    }
+    .copyright {
+        margin-bottom: 24px;
+    }
+    .policies-container {
+        display: flex;
+    }
+}
