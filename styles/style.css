@@ -472,4 +472,32 @@ button {
   position: absolute;
 }
 
+.facts {
+  background-color: var(--miranda-black);
+  color: white;
+  text-align: center;
+  padding: 48px 0;
+}
+.facts__fact {
+  margin-bottom: 60px;
+}
+.facts img {
+  width: 80px;
+  height: 80px;
+}
+.facts .number, .facts .plus, .facts .text {
+  display: inline;
+  font-family: Roboto;
+  font-weight: 700;
+}
+.facts .number {
+  font-size: 60px;
+}
+.facts .plus {
+  font-size: 16px;
+}
+.facts .text {
+  color: #999999;
+}
+
 /*# sourceMappingURL=style.css.map */

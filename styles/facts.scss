@@ -1,0 +1,27 @@
+.facts {
+    background-color: var(--miranda-black);
+    color: white;
+    text-align: center;
+    padding: 48px 0;
+    &__fact {
+        margin-bottom: 60px;
+    }
+    img {
+        width: 80px;
+        height: 80px;
+    }
+    .number, .plus, .text {
+        display: inline;
+        font-family: Roboto;
+        font-weight: 700;
+    }
+    .number {
+        font-size: 60px;
+    }
+    .plus {
+        font-size: 16px;
+    }
+    .text {
+        color: #999999;
+    }
+}
