@@ -182,20 +182,67 @@ img {
   line-height: 24px;
   margin-bottom: 24px;
 }
-.about img {
+
+.brand-features {
+  width: 100%;
+  max-width: 270px;
+  margin: auto;
+}
+.brand-features__background-container {
+  background-color: #222222;
+  padding-bottom: 40px;
+}
+.brand-features__feature-container {
+  text-align: center;
+  transform: translateY(-20%);
+  padding-bottom: 40px;
+}
+.brand-features__feature-container--2 {
+  margin-bottom: -100px;
+  color: white;
+}
+.brand-features__feature-container .icon {
+  width: 68px;
+  height: 50px;
+  margin-bottom: 30px;
+  margin-left: unset;
+  transform: unset;
+}
+.brand-features__feature-container .icon--diluted {
+  position: absolute;
+  margin-left: unset;
+  transform: unset;
+  z-index: -1;
+  width: 144px;
+  height: 106px;
+  right: 13%;
+}
+.brand-features__feature-container .icon--calendar {
+  width: 60px;
+  height: 50px;
+}
+.brand-features__feature-container img {
   width: 270px;
   height: 300px;
   margin-left: 50%;
-  transform: translate(-50%, -32.5%);
+  transform: translateX(-50%);
+  margin-bottom: 54px;
 }
-.about-feature-container {
-  text-align: center;
+.brand-features__feature-container .title {
+  font-family: "Old Standard TT";
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: -0.8999999762px;
+  margin-top: 0;
 }
-.about .icon {
-  width: 68px;
-  height: 50px;
-  margin-left: unset;
-  transform: unset;
+.brand-features__feature-container .description {
+  font-family: Roboto;
+  font-size: 14px;
+  margin: auto;
+  font-weight: 400;
+  line-height: 22px;
+  max-width: 200px;
 }
 
 /*# sourceMappingURL=style.css.map */
