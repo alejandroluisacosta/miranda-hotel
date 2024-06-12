@@ -2,6 +2,17 @@
     padding-top: 60px;
     text-align: center;
     margin-bottom: 60px;
+    &--about {
+        background-color: var(--miranda-black);
+        color: white;
+        padding-bottom: 42px;
+        .slide-container {
+            background-color: #292929;
+            .number {
+                color: var(--miranda-black);
+            }
+        }
+    }
     .section-title {
         margin-bottom: 32px;
     }
