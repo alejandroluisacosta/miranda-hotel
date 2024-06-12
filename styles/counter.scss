@@ -1,0 +1,41 @@
+.counter {
+    padding: 0 5%;
+    .section-title {
+        margin-bottom: 36px;
+    }
+    .counter-fact {
+        display: flex;
+        margin-bottom: 16px;
+        padding: 26px 0;
+        padding-right: 5%;
+        align-items: center;
+        margin-left: 5%;
+        img {
+            width: 65px;
+            height: 65px;
+            margin-right: 14px;
+        }
+        .description {
+            font-family: Roboto;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 24px;
+            color: var(--miranda-gray);
+            // margin-right: 50px;
+        }
+        .name {
+            margin: 0;
+            font-family: Old Standard TT;
+            color: var(--miranda-black);
+            font-size: 60px;
+            font-weight: 400;
+            line-height: 60px;
+            letter-spacing: -0.7200000286102295px;
+        }
+        .arrow {
+            margin: unset;
+            margin-left: auto;
+            width: 32px;
+        }
+    }
+}
