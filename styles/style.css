@@ -827,4 +827,27 @@ button {
   gap: 20px;
 }
 
+.rooms-pagination .pagination {
+  display: flex;
+  gap: 10px;
+}
+.rooms-pagination .pagination .page-link {
+  display: flex;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  justify-content: center;
+  color: black;
+  border: 0;
+  font-family: Oswald;
+  font-weight: 700;
+}
+.rooms-pagination .pagination .page-link--icon {
+  font-weight: unset;
+}
+.rooms-pagination .pagination .page-link--selected {
+  background-color: var(--miranda-brown);
+  color: white;
+}
+
 /*# sourceMappingURL=style.css.map */

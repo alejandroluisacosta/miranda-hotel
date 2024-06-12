@@ -1,0 +1,24 @@
+.rooms-pagination {
+    .pagination {
+        display: flex;
+        gap: 10px;
+        .page-link {
+            display: flex;
+            align-items: center;
+            width: 40px;
+            height: 40px;
+            justify-content: center;
+            color: black;
+            border: 0;
+            font-family: Oswald;
+            font-weight: 700;
+            &--icon {
+                font-weight: unset;
+            }
+            &--selected {
+                background-color: var(--miranda-brown);
+                color: white;
+            }
+        }
+    }
+}
