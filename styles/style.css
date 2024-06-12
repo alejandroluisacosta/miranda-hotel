@@ -417,6 +417,9 @@ button {
 .menu .section-title {
   margin-bottom: 32px;
 }
+.menu .swiper {
+  height: auto;
+}
 .menu .dish--last {
   margin-bottom: 24px;
 }
