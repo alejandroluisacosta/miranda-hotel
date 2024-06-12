@@ -146,6 +146,9 @@ button {
   padding: 10px 12px;
   margin-right: 3.6%;
 }
+.header p {
+  margin: 0;
+}
 .header .hotel-name {
   display: inline-block;
   font-family: "Archivo";
