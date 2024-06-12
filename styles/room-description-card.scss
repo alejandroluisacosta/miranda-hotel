@@ -11,7 +11,26 @@
         transform: translateY(-25%);
         z-index: 2;
     }
-    &__title {
+    &--rooms-page {
+        margin-top: -25px;
+        margin-bottom: 24px;
+        padding: 19px 0;
+        .title {
+            font-size: 24px !important;
+        }
+        .description {
+            line-height: 24px;
+            font-weight: lighter;
+        }
+        .price {
+            font-size: unset !important;
+        }
+        .booking {
+            font-weight: 700;
+            color: #BDBDBD;
+        }
+    }
+    .title {
         font-size: 28px;
         font-family: Old Standard TT;
         font-weight: 400;
@@ -22,15 +41,15 @@
         color: #777777;
         margin-bottom: 12px;
     }
-    &__price, &__divisor {
+    .price, .divisor {
         display: inline-block;
         color: #BEAD8E;
         font-weight: 700;
     }
-    &__price {
+    .price {
         font-size: 32px;
     }
-    &__divisor {
+    .divisor {
         font-weight: 13px;
     }
 }
