@@ -1,5 +1,6 @@
 :root {
     --miranda-black: #222222;
+    --miranda-dark-gray: #333333;
     --miranda-brown: #BDAC8D;
     --miranda-silver: #C2C2C2;
     --miranda-gray: #777777;
@@ -38,8 +39,10 @@ button {
     margin-bottom: 24px;
     color: #777777;
     &--1 {
-        max-width: 60%;
         color: white;
+    }
+    &--base {
+        max-width: 60%;
     }
 }
 
@@ -71,4 +74,4 @@ button {
     border: unset;
 }
 
-@import 'index', 'swiper', 'base', 'header', 'availability', 'about', 'brand-features', 'rooms', 'icon-bar', 'room-description-card', 'intro-video', 'facilities', 'menu', 'dishes', 'carousel', 'facts', 'footer', 'services', 'contact', 'legal-info'
+@import 'index', 'swiper', 'base', 'header', 'availability', 'about', 'brand-features', 'rooms', 'icon-bar', 'room-description-card', 'intro-video', 'facilities', 'menu', 'dishes', 'carousel', 'facts', 'footer', 'services', 'contact', 'legal-info', 'banner'

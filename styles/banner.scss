@@ -1,0 +1,33 @@
+.banner {
+    position: relative;
+    background-color: var(--miranda-dark-gray);
+    padding-top: 75px;
+    padding-left: 5.5%;
+    padding-right: 5.5%;
+    margin-bottom: 48px;
+    &--about {
+        padding-bottom: 95px;
+        margin-bottom: 60px;
+    }
+    .links-container {
+        position: absolute;
+        bottom: 0;
+        right: 5.5%;
+        display: flex;
+        justify-content: flex-end;
+        &__box {
+            display: flex;
+            gap: 7.5px;
+            padding: 16px 24px;
+            background-color: white;
+        }
+        .link, .separator {
+            font-family: Archivo;
+            font-weight: 600;
+            letter-spacing: -0.47999998927116394px;
+            &--light {
+                color: var(--miranda-brown)
+            }
+        }
+    }
+}

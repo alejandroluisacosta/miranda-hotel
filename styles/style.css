@@ -1,5 +1,6 @@
 :root {
   --miranda-black: #222222;
+  --miranda-dark-gray: #333333;
   --miranda-brown: #BDAC8D;
   --miranda-silver: #C2C2C2;
   --miranda-gray: #777777;
@@ -39,8 +40,10 @@ button {
   color: #777777;
 }
 .section-name--1 {
-  max-width: 60%;
   color: white;
+}
+.section-name--base {
+  max-width: 60%;
 }
 
 .section-title {
@@ -106,7 +109,7 @@ button {
 }
 
 .base {
-  background-color: #333333;
+  background-color: var(--miranda-dark-gray);
   padding: 75px 4%;
 }
 .base .section-name, .base .section-title {
@@ -617,6 +620,40 @@ button {
 }
 .legal-info .policies-container {
   display: flex;
+}
+
+.banner {
+  position: relative;
+  background-color: var(--miranda-dark-gray);
+  padding-top: 75px;
+  padding-left: 5.5%;
+  padding-right: 5.5%;
+  margin-bottom: 48px;
+}
+.banner--about {
+  padding-bottom: 95px;
+  margin-bottom: 60px;
+}
+.banner .links-container {
+  position: absolute;
+  bottom: 0;
+  right: 5.5%;
+  display: flex;
+  justify-content: flex-end;
+}
+.banner .links-container__box {
+  display: flex;
+  gap: 7.5px;
+  padding: 16px 24px;
+  background-color: white;
+}
+.banner .links-container .link, .banner .links-container .separator {
+  font-family: Archivo;
+  font-weight: 600;
+  letter-spacing: -0.4799999893px;
+}
+.banner .links-container .link--light, .banner .links-container .separator--light {
+  color: var(--miranda-brown);
 }
 
 /*# sourceMappingURL=style.css.map */
