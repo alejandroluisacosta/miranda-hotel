@@ -750,6 +750,7 @@ button {
 
 .counter {
   padding: 0 5%;
+  margin-bottom: 60px;
 }
 .counter .section-title {
   margin-bottom: 36px;
