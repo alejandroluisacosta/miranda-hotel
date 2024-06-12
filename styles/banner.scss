@@ -5,9 +5,16 @@
     padding-left: 5.5%;
     padding-right: 5.5%;
     margin-bottom: 48px;
+    p {
+        margin: 0;
+    }
     &--about {
         padding-bottom: 95px;
         margin-bottom: 60px;
+    }
+    &--room-details {
+        padding-bottom: 80px;
+        margin-bottom: 48px;
     }
     .links-container {
         position: absolute;

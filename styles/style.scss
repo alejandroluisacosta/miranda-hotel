@@ -55,6 +55,9 @@ button {
     &--1 {
         color: white;
     }
+    &--room {
+        font-size: 40px;
+    }
 }
 
 img {
@@ -74,4 +77,4 @@ button {
     border: unset;
 }
 
-@import 'index', 'swiper', 'base', 'header', 'availability', 'about', 'brand-features', 'rooms', 'icon-bar', 'room-description-card', 'intro-video', 'facilities', 'menu', 'dishes', 'carousel', 'facts', 'footer', 'services', 'contact', 'legal-info', 'banner', 'about-video', 'about-features', 'restaurant', 'counter', 'room-list', 'rooms-pagination'
+@import 'index', 'swiper', 'base', 'header', 'availability', 'about', 'brand-features', 'rooms', 'icon-bar', 'room-description-card', 'intro-video', 'facilities', 'menu', 'dishes', 'carousel', 'facts', 'footer', 'services', 'contact', 'legal-info', 'banner', 'about-video', 'about-features', 'restaurant', 'counter', 'room-list', 'rooms-pagination', 'room-basic-info'

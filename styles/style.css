@@ -56,6 +56,9 @@ button {
 .section-title--1 {
   color: white;
 }
+.section-title--room {
+  font-size: 40px;
+}
 
 img {
   width: 100%;
@@ -143,7 +146,7 @@ button {
   font-family: "Archivo";
   font-weight: 700;
   font-size: 16px;
-  padding: 10px 12px;
+  padding: 5px 12px;
   margin-right: 3.6%;
 }
 .header p {
@@ -672,9 +675,16 @@ button {
   padding-right: 5.5%;
   margin-bottom: 48px;
 }
+.banner p {
+  margin: 0;
+}
 .banner--about {
   padding-bottom: 95px;
   margin-bottom: 60px;
+}
+.banner--room-details {
+  padding-bottom: 80px;
+  margin-bottom: 48px;
 }
 .banner .links-container {
   position: absolute;
@@ -851,6 +861,26 @@ button {
 .rooms-pagination .pagination .page-link--selected {
   background-color: var(--miranda-brown);
   color: white;
+}
+
+.room-basic-info {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.room-basic-info .section-name {
+  margin-bottom: 12px;
+}
+.room-basic-info .price, .room-basic-info .divisor {
+  font-family: Archivo;
+  display: inline-block;
+  color: #BEAD8E;
+  font-weight: 700;
+}
+.room-basic-info .price {
+  font-size: 32px;
+}
+.room-basic-info .divisor {
+  font-weight: 13px;
 }
 
 /*# sourceMappingURL=style.css.map */

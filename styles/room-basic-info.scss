@@ -1,0 +1,19 @@
+.room-basic-info {
+    padding-left: 5%;
+    padding-right: 5%;
+    .section-name {
+        margin-bottom: 12px;
+    }
+    .price, .divisor {
+        font-family: Archivo;
+        display: inline-block;
+        color: #BEAD8E;
+        font-weight: 700;
+    }
+    .price {
+        font-size: 32px;
+    }
+    .divisor {
+        font-weight: 13px;
+    }
+}
