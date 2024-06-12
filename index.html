@@ -101,7 +101,7 @@
         <img class="icon" src="./assets/Cigar.svg">
         <img class="icon" src="./assets/Drink.svg">
       </article> 
-      <div class="swiper">
+      <div class="swiper swiper--rooms">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
           <img src="../assets/HotelRoom.jpeg"/>
@@ -113,8 +113,8 @@
           <img src="../assets/HotelRoom3.jpeg"/>
         </div>
       </div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev" id="swiper-button-prev--rooms"></div>
+      <div class="swiper-button-next" id="swiper-button-next--rooms"></div>
     </div>
     <article class="room-description-card room-description-card--home">
       <h2 class="room-description-card__title">Minimal Duplex Room</h2>
@@ -180,7 +180,7 @@
       <img class="donut" src="assets/Donut.svg"/>
       <h2 class="section-name">MENU</h2>
       <h2 class="section-title">Our Foods Menu</h2>
-      <div class="swiper">
+      <div class="swiper swiper--menu">
         <div class="swiper-wrapper">
           <div class="swiper-slide">
             <div class="dishes">
@@ -245,19 +245,15 @@
             </div>
           </div>
         </div>
-        <div class="menu__buttons-container">
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
-        </div>
       </div>
       <div class="menu__buttons-container">
         <button>
-          <span class="icon material-symbols-outlined">
+          <span class="icon material-symbols-outlined" id="swiper-button-prev--menu">
             arrow_back_ios
           </span>
         </button>
         <button>
-          <span class="icon material-symbols-outlined">
+          <span class="icon material-symbols-outlined" id="swiper-button-next--menu">
             arrow_forward_ios
           </span>
         </button>
@@ -275,8 +271,8 @@
           <div class="swiper-slide">
             <img src="../assets/HotelRoom3.jpeg"/>
           </div>
-          <div class="swiper-pagination"></div>
         </div>
+        <div class="swiper-pagination"></div>
       </div>
     </section>
     <section class="facts">

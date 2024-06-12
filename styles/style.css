@@ -78,6 +78,9 @@ button {
 .swiper--facilities {
   height: unset;
 }
+.swiper--auto {
+  height: 366px;
+}
 .swiper img {
   width: 100%;
   height: 100%;
@@ -468,9 +471,6 @@ button {
 .carousel img {
   width: 90%;
   height: 335px;
-}
-.carousel .swiper-pagination {
-  position: absolute;
 }
 
 .facts {

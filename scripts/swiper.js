@@ -1,4 +1,14 @@
-const swiper = new Swiper('.swiper', {
+const swiperRooms = new Swiper('.swiper--rooms', {
+    direction: 'horizontal',
+    loop: true,
+  
+    navigation: {
+      nextEl: '#swiper-button-next--rooms',
+      prevEl: '#swiper-button-prev--rooms',
+    },
+  });
+
+  const swiperCoreFeatures = new Swiper('.swiper--facilities', {
     // Optional parameters
     direction: 'horizontal',
     loop: true,
@@ -7,16 +17,15 @@ const swiper = new Swiper('.swiper', {
     pagination: {
       el: '.swiper-pagination',
     },
+  });
+
+  const swiperMenu = new Swiper('.swiper--menu', {
+    direction: 'horizontal',
+    loop: true,
   
-    // Navigation arrows
     navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev',
-    },
-  
-    // And if we need scrollbar
-    scrollbar: {
-      el: '.swiper-scrollbar',
+      nextEl: '#swiper-button-next--menu',
+      prevEl: '#swiper-button-prev--menu',
     },
   });
 
@@ -31,7 +40,6 @@ const swiper = new Swiper('.swiper', {
     },
 
     autoplay: {
-      delay: 3000,
-      reverseDirection: true,
+      
     },  
   });
