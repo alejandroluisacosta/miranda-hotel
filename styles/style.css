@@ -924,4 +924,14 @@ button {
   font-weight: 400;
 }
 
+.room-details-description {
+  padding-left: 5%;
+  padding-right: 5%;
+  color: var(--miranda-gray);
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 60px;
+}
+
 /*# sourceMappingURL=style.css.map */
