@@ -1,6 +1,11 @@
 .swiper {
     width: 100%;
-    height: 300px;
+    &--rooms {
+        height: 410px;
+        img {
+            height: 250px !important;
+        }
+    }
     &--facilities {
         height: unset;
     }
