@@ -93,6 +93,7 @@ button {
 }
 .swiper .swiper-button-prev,
 .swiper .swiper-button-next {
+  transform: translateY(-275%);
   width: 32px;
   height: 32px;
   background-color: #BDAC8D;
@@ -300,6 +301,7 @@ button {
   background-color: white;
   margin: auto;
   padding: 15px 24px;
+  box-shadow: 0px 8px 16px 0px rgba(138, 138, 138, 0.0509803922);
 }
 .icon-bar--rooms-page {
   transform: translateY(-50%);
@@ -363,7 +365,8 @@ button {
   font-size: 32px;
 }
 .room-description-card .divisor {
-  font-weight: 13px;
+  font-size: 13px;
+  margin-left: -2px;
 }
 
 .intro-video {
@@ -831,7 +834,8 @@ button {
   width: 335px;
   height: 220px;
 }
-.room-list .booking-container {
+
+.booking-container {
   display: flex;
   justify-content: center;
   gap: 20px;
@@ -1042,6 +1046,42 @@ button {
 .cancellation .description {
   line-height: 24px;
   color: var(--miranda-gray);
+}
+
+.related-rooms {
+  padding-left: 5.5%;
+  padding-right: 5.5%;
+  margin-bottom: 100px;
+}
+.related-rooms .title {
+  font-family: Old Standard TT;
+  font-size: 30px;
+  margin-bottom: 13px;
+  color: var(--miranda-black);
+}
+.related-rooms hr {
+  border: none;
+  height: 1px;
+  background-color: #F1F1F1;
+  margin: 0;
+  margin-bottom: 35px;
+}
+.related-rooms .swiper {
+  height: 410px;
+}
+.related-rooms .swiper img {
+  height: 218px;
+}
+.related-rooms .icon-bar {
+  height: 40px;
+  transform: translateY(-50%);
+}
+.related-rooms .icon-bar .icon {
+  height: 16px;
+}
+.related-rooms .room-description-card {
+  padding-bottom: 0;
+  margin-bottom: 0;
 }
 
 /*# sourceMappingURL=style.css.map */

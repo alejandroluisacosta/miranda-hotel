@@ -1,0 +1,36 @@
+.related-rooms {
+    padding-left: 5.5%;
+    padding-right: 5.5%;
+    margin-bottom: 100px;
+    .title {
+        font-family: Old Standard TT;
+        font-size: 30px;
+        margin-bottom: 13px;
+        color: var(--miranda-black);
+    }
+    hr {
+        border: none;
+        height: 1px;
+        background-color: #F1F1F1;
+        margin: 0;
+        margin-bottom: 35px;        
+    }
+    .swiper {
+        height: 410px;
+        img {
+            height: 218px;
+        }
+    }
+    .icon-bar {
+        height: 40px;
+        transform: translateY(-50%);
+        .icon {
+            height: 16px;
+        }
+    }
+    .room-description-card {
+        padding-bottom: 0;
+        margin-bottom: 0;
+    }
+
+}
