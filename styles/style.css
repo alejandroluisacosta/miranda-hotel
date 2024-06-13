@@ -693,6 +693,9 @@ button {
   padding-bottom: 80px;
   margin-bottom: 48px;
 }
+.banner--room-details .section-title {
+  max-width: 50%;
+}
 .banner--offers {
   padding-bottom: 96px;
   margin-bottom: 48px;
