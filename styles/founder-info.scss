@@ -1,0 +1,50 @@
+.founder-info {
+    position: relative;
+    padding: 60px 5.5% 41px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    .founder-image {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+
+        margin-bottom: 38px;
+    }
+    .icon-container {
+        top: 12%;
+        right: 29.3%;
+        position: absolute;
+        box-sizing: border-box;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 46px;
+        height: 46px;
+        border-radius: 50%;
+        background-color: var(--miranda-brown);
+        border: 4px solid white;
+        .icon {
+            width: 16px;
+        }
+    }
+    .founder-name {
+        font-family: Old Standard TT;
+        font-size: 30px;
+        letter-spacing: -0.9px;
+        color: var(--miranda-black);
+        margin-bottom: 15px;
+    }
+    .founder-title {
+        font-size: 14px;
+        font-weight: 600;
+        letter-spacing: 2.8px;
+        color: var(--miranda-brown);
+        margin-bottom: 25px;
+    }
+    .description {
+        line-height: 24px;
+        color: var(--miranda-gray);
+    }
+}
