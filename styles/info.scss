@@ -1,0 +1,51 @@
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    &__container {
+        box-sizing: border-box;
+        padding: 53px 71px 100px 32px;
+        max-width: 405px;
+        display: flex;
+        position: relative;
+        img {
+            width: 40px;
+            margin-right: 27px;
+        }
+        .text-container {
+            min-width: 176px;
+            .title {
+                font-family: Old Standard TT;
+                font-size: 20px;
+                line-height: 24px;
+                color: var(--miranda-black);
+                margin-bottom: 20px;
+            }
+            .information {
+                font-family: Roboto;
+                font-size: 14px;
+                line-height: 16.5px;
+                color: var(--miranda-gray);
+            }
+        }
+    }
+    .number {
+        position: absolute;
+        top: -5%;
+        font-family: Roboto;
+        font-size: 200px;
+        font-weight: 700;
+        line-height: 234.38px;
+        letter-spacing: -6px;
+        color: #F8F8F8;
+        z-index: -1;
+        &--1 {
+            right: -7.5%
+        }
+        &--2 {
+            right: 0;
+        }
+        &--3 {
+            right: -3.5%;
+        }
+    }
+}
