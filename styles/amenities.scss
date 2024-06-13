@@ -1,0 +1,36 @@
+.amenities {
+    padding: 0 5% 11px;
+    .section-title {
+        font-size: 30px;
+        color: var(--miranda-black);
+        line-height: unset;
+        letter-spacing: 0.5px;
+        margin-bottom: 13px;
+    }
+    hr {
+        border: none;
+        height: 1px;
+        background-color: #F1F1F1;
+        margin: 0;
+        margin-bottom: 35px;
+    }
+    .amenities-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .amenity {
+        display: flex;
+        gap: 8px;
+        margin-bottom: 16px;
+    }
+    .icon {
+        width: 16px;
+    }
+    .name {
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 400;
+        color: var(--miranda-gray);
+        line-height: 18px;
+    }
+}
