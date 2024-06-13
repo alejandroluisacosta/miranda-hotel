@@ -83,7 +83,7 @@ button {
 .swiper--rooms {
   height: 410px;
 }
-.swiper--rooms img {
+.swiper--rooms .image {
   height: 250px !important;
 }
 .swiper--facilities {
