@@ -1174,4 +1174,38 @@ button {
   padding-right: 57.5px;
 }
 
+.popular-list {
+  text-align: center;
+  padding: 50px 5%;
+  background-color: var(--miranda-black);
+  margin-bottom: 60px;
+}
+.popular-list .section-name {
+  color: var(--miranda-brown);
+}
+.popular-list .section-title {
+  color: white;
+  margin-bottom: 48px;
+}
+.popular-list .swiper .image {
+  height: 218px !important;
+}
+.popular-list .swiper-button-prev {
+  position: absolute;
+  left: 1%;
+}
+.popular-list .swiper-button-next {
+  position: absolute;
+  right: 1%;
+}
+.popular-list .room-description-card {
+  margin-top: -50px;
+  padding-top: 50px;
+  width: 100%;
+  margin-left: unset;
+  margin-right: unset;
+  max-width: unset;
+  padding-bottom: 24px;
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+.popular-list {
+    text-align: center;
+    padding: 50px 5%;
+    background-color: var(--miranda-black);
+    margin-bottom: 60px;
+    .section-name {
+        color: var(--miranda-brown);
+    }
+    .section-title {
+        color: white;
+        margin-bottom: 48px;
+    }
+    .swiper {
+        .image {
+            height: 218px !important;
+        }
+        &-button-prev {
+            position: absolute;
+            left: 1%;
+        }
+        &-button-next {
+            position: absolute;
+            right: 1%;
+        }
+    }
+    .room-description-card {
+        margin-top: -50px;
+        padding-top: 50px;
+        width: 100%;
+        margin-left: unset;
+        margin-right: unset;
+        max-width: unset;
+        padding-bottom: 24px;
+    }
+}
