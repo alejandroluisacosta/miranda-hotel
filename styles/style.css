@@ -693,6 +693,10 @@ button {
   padding-bottom: 80px;
   margin-bottom: 48px;
 }
+.banner--offers {
+  padding-bottom: 96px;
+  margin-bottom: 48px;
+}
 .banner .links-container {
   position: absolute;
   bottom: 0;
@@ -1090,6 +1094,84 @@ button {
 .related-rooms .room-description-card {
   padding-bottom: 0;
   margin-bottom: 0;
+}
+
+.room-offer {
+  box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1019607843);
+  margin: 0 5% 32px;
+}
+.room-offer .image-container {
+  text-align: center;
+  position: relative;
+  margin-bottom: 16px;
+}
+.room-offer .image {
+  width: 100%;
+  max-height: 85%;
+}
+.room-offer .prices-container {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  text-align: right;
+}
+.room-offer .old-price, .room-offer .old-price-divisor,
+.room-offer .new-price, .room-offer .new-price-divisor {
+  display: inline-block;
+  font-weight: 700;
+}
+.room-offer .old-price-container {
+  margin-bottom: 2px;
+}
+.room-offer .old-price {
+  font-size: 23px;
+  color: var(--miranda-brown);
+  text-decoration: line-through;
+}
+.room-offer .old-price-divisor {
+  font-size: 13px;
+  color: var(--miranda-brown);
+  margin-left: -2px;
+  text-decoration: line-through;
+}
+.room-offer .new-price {
+  font-size: 30px;
+  color: #DE5777;
+}
+.room-offer .new-price-divisor {
+  color: #DE5777;
+  font-size: 13px;
+  margin-left: -2px;
+}
+.room-offer .description-container {
+  padding: 0 6% 32px;
+}
+.room-offer .description-container .section-name {
+  margin-bottom: 12px;
+}
+.room-offer .description-container .section-title {
+  font-size: 40px;
+  letter-spacing: -1.44px;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+.room-offer .description-container .description {
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--miranda-gray);
+  margin-bottom: 24px;
+}
+.room-offer .description-container .amenities {
+  padding: unset;
+  margin-bottom: 24px;
+}
+.room-offer .description-container .amenities-container {
+  column-gap: 20px;
+}
+.room-offer .description-container button {
+  padding-left: 57.5px;
+  padding-right: 57.5px;
 }
 
 /*# sourceMappingURL=style.css.map */
