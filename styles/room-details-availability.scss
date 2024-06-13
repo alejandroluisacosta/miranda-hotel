@@ -1,0 +1,37 @@
+.room-details-availability {
+    background-color: white;
+    font-family: Archivo;
+    padding: 25px 12%;
+    margin-bottom: 24px;
+    .title-container {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        margin-bottom: 35px;
+        color: var(--miranda-black);
+    }
+    label {
+        display: block;
+        font-size: 14px;
+        color: var(--miranda-black);
+        font-weight: 600;
+        line-height: 14px;
+        margin-bottom: 13px;
+    }
+    .input {
+        display: flex;
+        justify-content: space-between;
+        padding: 24px 30px;
+        background-color: #F8F8F8;
+        color: var(--miranda-gray);
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .icon {
+        width: 16px;
+    }
+    button {
+        font-weight: 400;
+    }
+
+}

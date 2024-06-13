@@ -675,9 +675,6 @@ button {
   padding-right: 5.5%;
   margin-bottom: 48px;
 }
-.banner p {
-  margin: 0;
-}
 .banner--about {
   padding-bottom: 95px;
   margin-bottom: 60px;
@@ -843,8 +840,13 @@ button {
 .rooms-pagination .pagination {
   display: flex;
   gap: 10px;
+  padding-inline-start: 0;
+}
+.rooms-pagination .pagination .page-item {
+  list-style-type: none;
 }
 .rooms-pagination .pagination .page-link {
+  text-decoration: none;
   display: flex;
   align-items: center;
   width: 40px;
@@ -876,12 +878,50 @@ button {
   display: inline-block;
   color: #BEAD8E;
   font-weight: 700;
+  margin-bottom: 16px;
 }
 .room-basic-info .price {
   font-size: 32px;
 }
 .room-basic-info .divisor {
-  font-weight: 13px;
+  font-size: 13px;
+}
+
+.room-details-availability {
+  background-color: white;
+  font-family: Archivo;
+  padding: 25px 12%;
+  margin-bottom: 24px;
+}
+.room-details-availability .title-container {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 35px;
+  color: var(--miranda-black);
+}
+.room-details-availability label {
+  display: block;
+  font-size: 14px;
+  color: var(--miranda-black);
+  font-weight: 600;
+  line-height: 14px;
+  margin-bottom: 13px;
+}
+.room-details-availability .input {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 30px;
+  background-color: #F8F8F8;
+  color: var(--miranda-gray);
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.room-details-availability .icon {
+  width: 16px;
+}
+.room-details-availability button {
+  font-weight: 400;
 }
 
 /*# sourceMappingURL=style.css.map */
