@@ -1,12 +1,15 @@
 .info {
     display: flex;
     flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 24px;
     &__container {
         box-sizing: border-box;
         padding: 53px 71px 100px 32px;
         max-width: 405px;
         display: flex;
         position: relative;
+        overflow: hidden;
         img {
             width: 40px;
             margin-right: 27px;

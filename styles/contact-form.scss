@@ -1,0 +1,35 @@
+.contact-form {
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: center;
+    margin-bottom: 60px;
+    .input-container {
+        display: flex;
+        align-items: center;
+        padding: 25px;
+        background-color: #F8F8F8;
+        margin-bottom: 16px;
+        input {
+            border: none;
+            background: none;
+            margin-top: 3px;
+        }
+        &--text-area {
+            align-items: flex-start;
+            textarea {
+                border: none;
+                background: none;
+                width: 100%;
+                min-height: 155px;
+                font-family: Archivo;
+            }
+        }
+        .icon {
+            width: 16px;
+            margin-right: 17px;
+        }
+    }
+    button {
+        padding: 20px 105px;
+    }
+}
