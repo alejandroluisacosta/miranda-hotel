@@ -1022,8 +1022,9 @@ button {
 }
 
 .cancellation {
-  padding-left: 5.5;
-  padding-right: 5.5;
+  padding-left: 5.5%;
+  padding-right: 5.5%;
+  margin-bottom: 100px;
 }
 .cancellation .title {
   font-family: Old Standard TT;
