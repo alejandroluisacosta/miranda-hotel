@@ -1021,4 +1021,26 @@ button {
   color: var(--miranda-gray);
 }
 
+.cancellation {
+  padding-left: 5.5;
+  padding-right: 5.5;
+}
+.cancellation .title {
+  font-family: Old Standard TT;
+  font-size: 30px;
+  color: var(--miranda-black);
+  margin-bottom: 13px;
+}
+.cancellation hr {
+  border: none;
+  height: 1px;
+  background-color: #F1F1F1;
+  margin: 0;
+  margin-bottom: 35px;
+}
+.cancellation .description {
+  line-height: 24px;
+  color: var(--miranda-gray);
+}
+
 /*# sourceMappingURL=style.css.map */
