@@ -20,6 +20,12 @@
         padding-bottom: 96px;
         margin-bottom: 48px;
     }
+    &--contact {
+        padding-bottom: 95px;
+        .links-container__box {
+            padding: 16px 30px !important;
+        }
+    }
     .links-container {
         position: absolute;
         bottom: 0;
