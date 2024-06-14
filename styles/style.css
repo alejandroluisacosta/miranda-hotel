@@ -136,11 +136,7 @@ button {
   margin: 17px 0 17px 5.5%;
   display: flex;
   align-items: center;
-}
-.header__icons-container {
-  position: absolute;
-  right: 10%;
-  display: flex;
+  position: relative;
 }
 .header .hamburger-menu {
   display: inline-block;
@@ -165,13 +161,15 @@ button {
   height: 20px;
 }
 .header .icon {
-  display: inline-block;
-  margin-left: auto;
+  position: absolute;
   width: 24px;
   height: 24px;
 }
 .header .icon--profile {
-  margin-right: 30%;
+  right: 18%;
+}
+.header .icon--search {
+  right: 5.5%;
 }
 
 .availability {

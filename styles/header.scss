@@ -2,11 +2,7 @@
     margin: 17px 0 17px 5.5%;
     display: flex;
     align-items: center;
-    &__icons-container {
-        position: absolute;
-        right: 10%;
-        display: flex;
-    }
+    position: relative;
     .hamburger-menu {
         display: inline-block;
         margin-right: 5%;
@@ -31,12 +27,14 @@
     }
     
     .icon {
-        display: inline-block;
-        margin-left: auto;
+        position: absolute;
         width: 24px;
         height: 24px;
         &--profile {
-            margin-right: 30%;
+            right: 18%;
+        }
+        &--search {
+            right: 5.5%;
         }
     }
 }
