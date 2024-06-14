@@ -1019,14 +1019,15 @@ button {
   margin-bottom: 65px;
 }
 .founder-info .founder-image {
+  position: relative;
   width: 150px;
   height: 150px;
   border-radius: 50%;
   margin-bottom: 38px;
 }
 .founder-info .icon-container {
-  top: 12%;
-  right: 29.3%;
+  top: 0;
+  right: 0;
   position: absolute;
   box-sizing: border-box;
   display: flex;
@@ -1058,6 +1059,7 @@ button {
 .founder-info .description {
   line-height: 24px;
   color: var(--miranda-gray);
+  max-width: 400px;
 }
 
 .cancellation {
