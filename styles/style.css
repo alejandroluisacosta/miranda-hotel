@@ -172,6 +172,11 @@ button {
   right: 5.5%;
 }
 
+@media only screen and (min-width: 600px) {
+  .header .icon--profile {
+    right: 14%;
+  }
+}
 .availability {
   font-family: "Roboto";
   background-color: #222222;
