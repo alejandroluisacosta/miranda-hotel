@@ -139,7 +139,7 @@ button {
   position: relative;
 }
 .header .hamburger-menu {
-  display: inline-block;
+  align-items: center;
   margin-right: 5%;
 }
 .header .logo {
