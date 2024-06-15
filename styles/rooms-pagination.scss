@@ -1,6 +1,7 @@
 .rooms-pagination {
     .pagination {
         display: flex;
+        justify-content: center;
         gap: 10px;
         padding-inline-start: 0;
         .page-item {

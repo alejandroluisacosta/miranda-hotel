@@ -863,6 +863,7 @@ button {
 
 .room-list {
   padding: 0 5%;
+  text-align: center;
 }
 .room-list img {
   width: 335px;
@@ -877,6 +878,7 @@ button {
 
 .rooms-pagination .pagination {
   display: flex;
+  justify-content: center;
   gap: 10px;
   padding-inline-start: 0;
 }
