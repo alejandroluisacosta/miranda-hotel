@@ -48,3 +48,17 @@
         }
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    .header {
+        position: absolute;
+        top: 40px;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        width: 75%;
+        z-index: 1;
+        background-color: white;
+        padding: 40px;
+    }
+}
