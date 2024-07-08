@@ -766,6 +766,11 @@ button {
   color: var(--miranda-brown);
 }
 
+@media only screen and (min-width: 1000px) {
+  .banner {
+    padding: 160px 20% 85px;
+  }
+}
 .about-video {
   padding: 0 5.5%;
   margin-bottom: 50px;
