@@ -770,6 +770,9 @@ button {
   .banner {
     padding: 160px 20% 85px;
   }
+  .banner .links-container {
+    right: 15%;
+  }
 }
 .about-video {
   padding: 0 5.5%;
