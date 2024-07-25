@@ -46,12 +46,6 @@ button {
     }
 }
 
-@media only screen and (min-width: 1000px) {
-    .section-name {
-        font-size: 14px;
-    }
-}
-
 .section-title {
     font-family: "Old Standard TT";
     font-size: 56px;
@@ -76,12 +70,6 @@ img {
     background-color: black;
 }
 
-@media only screen and (max-width: 1000px) {
-    .black-strip {
-        display: none;
-    }
-}
-
 button {
     font-family: "Archivo";
     font-size: 14px;
@@ -93,6 +81,22 @@ button {
     background-color: #BEAD8E;
     color: white;
     border: unset;
+}
+
+@media only screen and (min-width: 1000px) {
+    .section-name {
+        font-size: 14px;
+    }
+    .section-title {
+        font-size: 80px;
+        line-height: unset;
+        &--banner {
+            font-size: 72px;
+        }
+    }
+    .black-strip {
+        display: none;
+    }
 }
 
 @import 'index', 'swiper', 'base', 'header', 'availability', 'about', 'brand-features', 'rooms', 'icon-bar', 'room-description-card', 'intro-video', 'facilities', 'menu', 'dishes', 'carousel', 'facts', 'footer', 'services', 'contact', 'legal-info', 'banner', 'about-video', 'about-features', 'restaurant', 'counter', 'room-list', 'rooms-pagination', 'room-basic-info', 'room-details-availability', 'room-details-description', 'amenities', 'founder-info', 'cancellation', 'related-rooms', 'room-offer', 'popular-list', 'info', 'contact-form'

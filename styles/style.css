@@ -46,11 +46,6 @@ button {
   max-width: 60%;
 }
 
-@media only screen and (min-width: 1000px) {
-  .section-name {
-    font-size: 14px;
-  }
-}
 .section-title {
   font-family: "Old Standard TT";
   font-size: 56px;
@@ -75,11 +70,6 @@ img {
   background-color: black;
 }
 
-@media only screen and (max-width: 1000px) {
-  .black-strip {
-    display: none;
-  }
-}
 button {
   font-family: "Archivo";
   font-size: 14px;
@@ -93,6 +83,21 @@ button {
   border: unset;
 }
 
+@media only screen and (min-width: 1000px) {
+  .section-name {
+    font-size: 14px;
+  }
+  .section-title {
+    font-size: 80px;
+    line-height: unset;
+  }
+  .section-title--banner {
+    font-size: 72px;
+  }
+  .black-strip {
+    display: none;
+  }
+}
 .swiper {
   width: 100%;
 }
@@ -502,6 +507,7 @@ button {
 @media only screen and (min-width: 1000px) {
   .facilities {
     padding-bottom: 120px;
+    margin-bottom: 120px;
   }
   .swiper--facilities {
     width: 67.5%;
@@ -932,7 +938,7 @@ button {
 @media only screen and (min-width: 1000px) {
   .restaurant {
     display: flex;
-    margin: 0 18.75% 120px;
+    margin: 0 5% 120px;
     padding: 40px 3.25% 40px 2.25%;
     gap: 57px;
   }
@@ -951,6 +957,18 @@ button {
   }
   .restaurant__content-container .description {
     padding-right: 1%;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  .restaurant {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .restaurant {
+    margin-left: 18.75%;
+    margin-right: 18.75%;
   }
 }
 .counter {
@@ -994,7 +1012,46 @@ button {
   margin-left: auto;
   width: 32px;
 }
+.counter__images-container {
+  display: none;
+}
 
+@media only screen and (min-width: 1000px) {
+  .counter {
+    padding: 0 18.75%;
+    margin-bottom: 120px;
+  }
+  .counter .section-title {
+    margin-bottom: 42px;
+  }
+  .counter .facts-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 60px;
+    padding: 0 2%;
+  }
+  .counter .facts-container .counter-fact {
+    margin: unset;
+    padding: unset;
+    width: 25%;
+  }
+  .counter .swiper--about {
+    display: none;
+  }
+  .counter__images-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+  }
+  .counter__images-container .single-image-container {
+    min-height: 100%;
+    width: 90%;
+    padding-bottom: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+  }
+}
 .room-list {
   padding: 0 5%;
   text-align: center;

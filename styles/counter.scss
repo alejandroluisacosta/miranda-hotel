@@ -38,4 +38,44 @@
             width: 32px;
         }
     }
+    &__images-container {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .counter {
+        padding: 0 18.75%;
+        margin-bottom: 120px;
+        .section-title {
+            margin-bottom: 42px;
+        }
+        .facts-container {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 60px;
+            padding: 0 2%;
+            .counter-fact {
+                margin: unset;
+                padding: unset;
+                width: 25%;
+            }
+        }
+        .swiper--about {
+            display: none;
+        }
+        &__images-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 3%;
+            .single-image-container {
+                min-height: 100%;
+                width: 90%;
+                padding-bottom: 50%;
+                background-size: cover;
+                background-position: center center;
+                background-repeat: no-repeat;
+            }
+        }
+    }
 }
