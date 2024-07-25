@@ -9,8 +9,8 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-top: 43px;
-        padding-bottom: 37px;
+        justify-content: center;
+        height: 158px;
         width: 158px;
         &--selected {
             background-color: var(--miranda-brown);
@@ -35,13 +35,12 @@
 @media only screen and (min-width: 1000px) {
     .about-features {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 0 18.75%;
         margin-bottom: 40px;
         .feature {
             width: 200px;
-            padding-top: 58px;
-            padding-bottom: 50px;
+            height: 200px;
             &--bbq {
                 display: flex;
             }

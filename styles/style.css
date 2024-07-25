@@ -46,6 +46,11 @@ button {
   max-width: 60%;
 }
 
+@media only screen and (min-width: 1000px) {
+  .section-name {
+    font-size: 14px;
+  }
+}
 .section-title {
   font-family: "Old Standard TT";
   font-size: 56px;
@@ -823,8 +828,8 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 43px;
-  padding-bottom: 37px;
+  justify-content: center;
+  height: 158px;
   width: 158px;
 }
 .about-features .feature--selected {
@@ -848,14 +853,13 @@ button {
 @media only screen and (min-width: 1000px) {
   .about-features {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 0 18.75%;
     margin-bottom: 40px;
   }
   .about-features .feature {
     width: 200px;
-    padding-top: 58px;
-    padding-bottom: 50px;
+    height: 200px;
   }
   .about-features .feature--bbq {
     display: flex;
@@ -893,6 +897,30 @@ button {
   box-shadow: 0px 14px 24px 0px rgba(190, 173, 142, 0.3607843137);
 }
 
+@media only screen and (min-width: 1000px) {
+  .restaurant {
+    display: flex;
+    margin: 0 18.75%;
+    padding: 40px 3.25% 40px 2.25%;
+    gap: 57px;
+  }
+  .restaurant__image-container img {
+    width: 530px;
+    height: 420px;
+  }
+  .restaurant__content-container {
+    width: 45.25%;
+    padding-top: 40px;
+  }
+  .restaurant__content-container .section-title {
+    font-size: 48px;
+    line-height: 59.33px;
+    letter-spacing: -1.44px;
+  }
+  .restaurant__content-container .description {
+    padding-right: 1%;
+  }
+}
 .counter {
   padding: 0 5%;
   margin-bottom: 60px;
