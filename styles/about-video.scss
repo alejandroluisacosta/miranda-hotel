@@ -14,3 +14,15 @@
         letter-spacing: -1.159999966621399px;
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    .about-video {
+        padding: 0 18.75%;
+        .text {
+            padding: 0 4.75%;
+            font-size: 72px;
+            line-height: 88.99px;
+            letter-spacing: -2.1600000858306885px;
+        }
+    }
+}
