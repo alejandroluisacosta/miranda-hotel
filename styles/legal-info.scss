@@ -13,3 +13,16 @@
         display: flex;
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    .legal-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 18.75%;
+        padding-right: 18.75%;
+        .copyright {
+            margin-bottom: unset;
+        }
+    }
+}

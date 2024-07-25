@@ -25,7 +25,7 @@
     }
     .description {
         font-weight: 400;
-        font-size: 16;
+        font-size: 16px;
         line-height: 26px;
         color: var(--miranda-gray);
         margin-bottom: 32px;
@@ -49,6 +49,35 @@
                 margin-top: 50%;
                 transform: translateY(-50%);
             }
+        }
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .footer {
+        &__background {
+            display: flex;
+            padding: 0 5%;
+            justify-content: space-between;
+        }
+        .hotel-info {
+            width: 20%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .footer {
+        &__background {
+            padding: 0 10%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .footer {
+        &__background {
+            padding: 0 18.75%;
         }
     }
 }
