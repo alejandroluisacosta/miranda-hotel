@@ -452,7 +452,7 @@ button {
   margin-bottom: 60px;
 }
 .facilities--about .section-name {
-  color: white;
+  color: var(--miranda-silver);
 }
 .facilities--about .slide-container {
   background-color: #292929;
@@ -499,6 +499,38 @@ button {
   bottom: 0;
 }
 
+@media only screen and (min-width: 1000px) {
+  .facilities {
+    padding-bottom: 120px;
+  }
+  .swiper--facilities {
+    width: 67.5%;
+    margin: 0 0 0 50% !important;
+    transform: translate(-50%);
+  }
+  .swiper--facilities .swiper-wrapper {
+    display: grid !important;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+  }
+  .swiper--facilities .swiper-wrapper .swiper-slide {
+    width: unset !important;
+  }
+  .swiper--facilities .swiper-wrapper .swiper-slide .slide-container {
+    position: relative;
+    box-sizing: border-box;
+    width: 375px;
+    height: 370px;
+  }
+  .swiper--facilities .swiper-wrapper .swiper-slide .slide-container .number {
+    top: -5.5%;
+    right: 0;
+  }
+  .swiper--facilities .swiper-wrapper .swiper-slide .slide-container .description {
+    max-width: unset;
+  }
+}
 .menu {
   padding: 115px 8.5% 0;
   margin-bottom: 60px;
@@ -900,7 +932,7 @@ button {
 @media only screen and (min-width: 1000px) {
   .restaurant {
     display: flex;
-    margin: 0 18.75%;
+    margin: 0 18.75% 120px;
     padding: 40px 3.25% 40px 2.25%;
     gap: 57px;
   }

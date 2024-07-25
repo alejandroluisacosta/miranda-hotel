@@ -8,7 +8,7 @@
         padding-bottom: 42px;
         margin-bottom: 60px;
         .section-name {
-            color: white;
+            color: var(--miranda-silver);
         }
         .slide-container {
             background-color: #292929;
@@ -54,5 +54,40 @@
     .swiper-pagination {
         position: absolute;
         bottom: 0;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .facilities {
+        padding-bottom: 120px;
+    }
+    .swiper {
+        &--facilities {
+            width: 67.5%;
+            margin: 0 0 0 50%!important;
+            transform: translate(-50%);
+            .swiper-wrapper {
+                display: grid !important;
+                place-items: center;
+                grid-template-columns: repeat(3, 1fr);
+                row-gap: 20px;
+                .swiper-slide {
+                    width: unset !important;
+                    .slide-container {
+                        position: relative;
+                        box-sizing: border-box;
+                        width: 375px;
+                        height: 370px;
+                        .number {
+                            top: -5.5%;
+                            right: 0;
+                        }
+                        .description {
+                            max-width: unset;
+                        }
+                    }
+                }
+            }
+        }
     }
 }

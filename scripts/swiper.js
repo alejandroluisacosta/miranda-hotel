@@ -8,16 +8,16 @@ const swiperRooms = new Swiper('.swiper--rooms', {
     },
   });
 
-  const swiperCoreFeatures = new Swiper('.swiper--facilities', {
-    // Optional parameters
-    direction: 'horizontal',
-    loop: true,
-  
-    // If we need pagination
-    pagination: {
-      el: '.swiper-pagination',
-    },
-  });
+  if (window.innerWidth < 1000) {
+    const swiperCoreFeatures = new Swiper('.swiper--facilities', {
+      direction: 'horizontal',
+      loop: true,
+    
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+  }     
 
   const swiperMenu = new Swiper('.swiper--menu', {
     direction: 'horizontal',
@@ -30,11 +30,9 @@ const swiperRooms = new Swiper('.swiper--rooms', {
   });
 
   const swiperAuto = new Swiper('.swiper--auto', {
-    // Optional parameters
     direction: 'horizontal',
     loop: true,
   
-    // If we need pagination
     pagination: {
       el: '.swiper-pagination',
     },
