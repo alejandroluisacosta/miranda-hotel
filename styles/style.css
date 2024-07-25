@@ -68,6 +68,7 @@ img {
   width: 100%;
   height: 100px;
   background-color: black;
+  display: none;
 }
 
 button {
@@ -95,7 +96,7 @@ button {
     font-size: 72px;
   }
   .black-strip {
-    display: none;
+    display: block;
   }
 }
 .swiper {
@@ -183,6 +184,9 @@ button {
   width: 60px;
   height: 20px;
 }
+.header ul {
+  display: none;
+}
 .header .icon {
   position: absolute;
   width: 24px;
@@ -210,7 +214,54 @@ button {
     width: 75%;
     z-index: 1;
     background-color: white;
-    padding: 40px;
+    padding: 20px;
+  }
+  .header .hamburger-menu {
+    display: none;
+  }
+  .header .logo {
+    font-size: 40px;
+    padding: 18px 24px;
+  }
+  .header .hotel-name {
+    width: 140px;
+    height: 55px;
+    margin-right: 5%;
+  }
+  .header ul {
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+  }
+  .header li {
+    list-style-type: none;
+  }
+  .header .icon {
+    border: 2px solid rgba(133, 133, 133, 0.3019607843);
+    padding: 16px;
+  }
+  .header .icon--search {
+    right: 5.5%;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .header .icon--search {
+    right: 6.5%;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .header .icon--search {
+    right: 7.5%;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .header .icon--search {
+    right: 8%;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .header .icon--search {
+    right: 9%;
   }
 }
 .availability {

@@ -25,7 +25,9 @@
         width: 60px;
         height: 20px;
     }
-    
+    ul {
+        display: none;
+    }
     .icon {
         position: absolute;
         width: 24px;
@@ -59,6 +61,73 @@
         width: 75%;
         z-index: 1;
         background-color: white;
-        padding: 40px;
+        padding: 20px;
+        .hamburger-menu {
+            display: none;
+        }
+        .logo {
+            font-size: 40px;
+            padding: 18px 24px;
+        }
+        .hotel-name {
+            width: 140px;
+            height: 55px;
+            margin-right: 5%;
+        }
+        ul {
+            display: flex;
+            width: 30%;
+            justify-content: space-between;
+        }
+        li {
+            list-style-type: none;
+        }
+        .icon {
+            border: 2px solid #8585854D;
+            padding: 16px;
+            &--search {
+                right: 5.5%;
+            }
+        }
     }
+}
+
+@media only screen and (min-width: 1150px) {
+    .header {
+        .icon {
+            &--search {
+                right: 6.5%;
+            }
+        }
+    }  
+}
+
+@media only screen and (min-width: 1300px) {
+    .header {
+        .icon {
+            &--search {
+                right: 7.5%;
+            }
+        }
+    }  
+}
+
+@media only screen and (min-width: 1500px) {
+    .header {
+        .icon {
+            &--search {
+                right: 8.0%;
+            }
+        }
+    }  
+}
+
+@media only screen and (min-width: 1800px) {
+    .header {
+        .icon {
+            &--search {
+                right: 9%;
+            }
+        }
+    }  
 }
