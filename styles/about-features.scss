@@ -16,6 +16,9 @@
             background-color: var(--miranda-brown);
             color: white;
         }
+        &--bbq {
+            display: none;
+        }
     }
     .icon {
         width: 53px;
@@ -26,5 +29,25 @@
         font-weight: 600;
         letter-spacing: 2.4px;
         line-height: 14px;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .about-features {
+        display: flex;
+        justify-content: space-around;
+        padding: 0 18.75%;
+        margin-bottom: 40px;
+        .feature {
+            width: 200px;
+            padding-top: 58px;
+            padding-bottom: 50px;
+            &--bbq {
+                display: flex;
+            }
+        }
+        .icon {
+            width: 72px;
+        }
     }
 }

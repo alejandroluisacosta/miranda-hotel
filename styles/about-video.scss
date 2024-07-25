@@ -18,11 +18,15 @@
 @media only screen and (min-width: 1000px) {
     .about-video {
         padding: 0 18.75%;
+        video {
+            margin-bottom: 70px;
+        }
         .text {
             padding: 0 4.75%;
             font-size: 72px;
             line-height: 88.99px;
             letter-spacing: -2.1600000858306885px;
+            margin-bottom: 75px;
         }
     }
 }

@@ -800,11 +800,15 @@ button {
   .about-video {
     padding: 0 18.75%;
   }
+  .about-video video {
+    margin-bottom: 70px;
+  }
   .about-video .text {
     padding: 0 4.75%;
     font-size: 72px;
     line-height: 88.99px;
     letter-spacing: -2.1600000858px;
+    margin-bottom: 75px;
   }
 }
 .about-features {
@@ -827,6 +831,9 @@ button {
   background-color: var(--miranda-brown);
   color: white;
 }
+.about-features .feature--bbq {
+  display: none;
+}
 .about-features .icon {
   width: 53px;
   margin-bottom: 12px;
@@ -838,6 +845,25 @@ button {
   line-height: 14px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .about-features {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 18.75%;
+    margin-bottom: 40px;
+  }
+  .about-features .feature {
+    width: 200px;
+    padding-top: 58px;
+    padding-bottom: 50px;
+  }
+  .about-features .feature--bbq {
+    display: flex;
+  }
+  .about-features .icon {
+    width: 72px;
+  }
+}
 .restaurant {
   margin: 0 5% 60px;
   padding: 5%;
