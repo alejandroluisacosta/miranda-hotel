@@ -346,6 +346,7 @@ button {
 
 @media only screen and (min-width: 1000px) {
   .about {
+    display: none;
     padding-top: 0;
   }
 }
@@ -409,6 +410,11 @@ button {
   max-width: 200px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .brand-features {
+    display: none;
+  }
+}
 .rooms {
   text-align: center;
   margin-bottom: 30px;
@@ -745,6 +751,11 @@ button {
   font-size: 12px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .menu {
+    display: none;
+  }
+}
 .dish {
   display: flex;
   margin-bottom: 16px;
