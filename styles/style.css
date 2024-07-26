@@ -99,6 +99,14 @@ button {
     display: block;
   }
 }
+.single-image-container {
+  min-height: 100%;
+  padding-bottom: 50%;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
 .swiper {
   width: 100%;
 }
@@ -139,6 +147,14 @@ button {
   background-color: var(--miranda-brown) !important;
 }
 
+@media only screen and (min-width: 1000px) {
+  .swiper .swiper-button-next {
+    right: 27.5%;
+  }
+  .swiper .swiper-button-prev {
+    left: 27.5%;
+  }
+}
 .base {
   background-color: var(--miranda-dark-gray);
   padding: 180px 4% 125px;
@@ -506,6 +522,87 @@ button {
   margin-bottom: 36px;
 }
 
+.decorative-square {
+  display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+  .intro-video-container {
+    display: flex;
+    position: relative;
+  }
+  .intro-video-container .intro-video {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    display: flex;
+    position: relative;
+    gap: 5%;
+  }
+  .intro-video-container .section-title {
+    font-size: 50px;
+  }
+  .intro-video-container .description {
+    max-width: 485px;
+  }
+  .intro-video-container video {
+    width: 570px;
+    height: 460px;
+    z-index: 1;
+  }
+  .intro-video-container .button {
+    position: absolute;
+    bottom: 12.5%;
+  }
+  .intro-video-container .decorative-square {
+    display: none;
+    position: absolute;
+    right: 0;
+    width: 30%;
+    padding-bottom: 100%;
+    background-color: var(--miranda-brown);
+  }
+}
+@media only screen and (min-width: 1080px) {
+  .intro-video .button {
+    bottom: 15%;
+  }
+}
+@media only screen and (min-width: 1110px) {
+  .intro-video .button {
+    bottom: 30%;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  .intro-video .button {
+    bottom: 35%;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .intro-video {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .intro-video .section-title {
+    font-size: 60px;
+  }
+  .intro-video .button {
+    bottom: 30%;
+  }
+}
+@media only screen and (min-width: 1640px) {
+  .intro-video .section-title {
+    font-size: 80px;
+  }
+  .intro-video .button {
+    bottom: 25%;
+  }
+}
+@media only screen and (min-width: 1870px) {
+  .intro-video {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
 .facilities {
   padding-top: 60px;
   text-align: center;

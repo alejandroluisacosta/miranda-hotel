@@ -23,3 +23,99 @@
         margin-bottom: 36px;
     }
 }
+
+.decorative-square {
+    display: none;
+}
+
+@media only screen and (min-width: 1000px) {
+    .intro-video-container {
+        display: flex;
+        position: relative;
+        .intro-video {
+            padding-top: 130px;
+            padding-bottom: 130px;
+            display: flex;
+            position: relative;
+            gap: 5%;
+        }
+        .section-title {
+            font-size: 50px;
+        }
+        .description {
+            max-width: 485px;
+        }
+        video {
+            width: 570px;
+            height: 460px;
+            z-index: 1;
+        }
+        .button {
+            position: absolute;
+            bottom: 12.5%;
+        }
+        .decorative-square {
+            display: none;
+            position: absolute;
+            right: 0;
+            width: 30%;
+            padding-bottom: 100%;
+            background-color: var(--miranda-brown);
+        }
+    }
+}
+
+@media only screen and (min-width: 1080px) {
+    .intro-video {
+        .button {
+            bottom: 15%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1110px) {
+    .intro-video {
+        .button {
+            bottom: 30%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .intro-video {
+        .button {
+            bottom: 35%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1500px) {
+    .intro-video {
+        padding-left: 10%; 
+        padding-right: 10%;
+        .section-title {
+            font-size: 60px;
+        }
+        .button {
+            bottom: 30%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1640px) {
+    .intro-video {
+        .section-title {
+            font-size: 80px;
+        }
+        .button {
+            bottom: 25%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1870px) {
+    .intro-video {
+        padding-left: 15%; 
+        padding-right: 15%; 
+    }
+}

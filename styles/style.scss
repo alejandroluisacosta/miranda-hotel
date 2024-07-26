@@ -100,4 +100,12 @@ button {
     }
 }
 
+.single-image-container {
+    min-height: 100%;
+    padding-bottom: 50%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
 @import 'index', 'swiper', 'base', 'header', 'availability', 'about', 'brand-features', 'rooms', 'icon-bar', 'room-description-card', 'intro-video', 'facilities', 'menu', 'dishes', 'carousel', 'facts', 'footer', 'services', 'contact', 'legal-info', 'banner', 'about-video', 'about-features', 'restaurant', 'counter', 'room-list', 'rooms-pagination', 'room-basic-info', 'room-details-availability', 'room-details-description', 'amenities', 'founder-info', 'cancellation', 'related-rooms', 'room-offer', 'popular-list', 'info', 'contact-form'

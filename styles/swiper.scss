@@ -37,3 +37,14 @@
         background-color: var(--miranda-brown) !important;
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    .swiper {
+        .swiper-button-next {
+            right: 27.5%;
+        }
+        .swiper-button-prev {
+            left: 27.5%;
+        }
+    }
+}
