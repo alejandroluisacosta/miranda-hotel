@@ -16,6 +16,10 @@
         padding: 5px 12px;
         margin-right: 3.6%;
     }
+    a {
+        color: inherit;
+        text-decoration: none;
+    }
     p {
         margin: 0;
     }
@@ -72,11 +76,11 @@
         .hotel-name {
             width: 140px;
             height: 55px;
-            margin-right: 5%;
+            margin-right: 0%;
         }
         ul {
             display: flex;
-            width: 30%;
+            width: 35%;
             justify-content: space-between;
         }
         li {
@@ -108,6 +112,12 @@
             &--search {
                 right: 7.5%;
             }
+        }
+        .hotel-name {
+            margin-right: 5%;
+        }
+        ul {
+            width: 30%;
         }
     }  
 }
