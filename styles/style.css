@@ -999,7 +999,7 @@ button {
   .about-features {
     display: flex;
     justify-content: space-between;
-    padding: 0 18.75%;
+    padding: 0 5%;
     margin-bottom: 40px;
   }
   .about-features .feature {
@@ -1011,6 +1011,18 @@ button {
   }
   .about-features .icon {
     width: 72px;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  .about-features {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .about-features {
+    margin-left: 18.75%;
+    margin-right: 18.75%;
   }
 }
 .restaurant {
@@ -1125,7 +1137,7 @@ button {
 
 @media only screen and (min-width: 1000px) {
   .counter {
-    padding: 0 18.75%;
+    padding: 0 5%;
     margin-bottom: 120px;
   }
   .counter .section-title {
@@ -1157,6 +1169,18 @@ button {
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
+  }
+}
+@media only screen and (min-width: 1450px) {
+  .counter {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+}
+@media only screen and (min-width: 1900px) {
+  .counter {
+    margin-left: 18.75%;
+    margin-right: 18.75%;
   }
 }
 .room-list {
