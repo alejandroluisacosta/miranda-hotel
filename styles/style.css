@@ -538,6 +538,7 @@ button {
     position: relative;
   }
   .intro-video-container .intro-video {
+    width: 100%;
     padding-top: 130px;
     padding-bottom: 130px;
     display: flex;
