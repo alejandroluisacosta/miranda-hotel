@@ -343,6 +343,23 @@ button {
 @media only screen and (min-width: 1000px) {
   .availability {
     margin-bottom: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .availability .input-container {
+    width: 20%;
+  }
+  .availability button {
+    margin: 0;
+    height: 100%;
+    padding: 23px 25px;
+  }
+  .availability > :nth-child(1) {
+    margin-right: 5%;
+  }
+  .availability > :nth-child(2) {
+    margin-right: 7.5%;
   }
 }
 .about {
