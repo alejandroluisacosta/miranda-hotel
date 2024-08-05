@@ -190,6 +190,16 @@ button {
   border: 2px solid rgba(255, 255, 255, 0.3294117647);
 }
 
+@media only screen and (min-width: 1000px) {
+  .base {
+    padding-left: 20%;
+  }
+  .base .section-title {
+    font-size: 120px;
+    max-width: 660px;
+    letter-spacing: -3.6px;
+  }
+}
 .header {
   margin: 17px 0 17px 5.5%;
   display: flex;
@@ -344,11 +354,13 @@ button {
   .availability {
     margin-bottom: 120px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding-left: 20%;
+    padding-right: 20%;
   }
   .availability .input-container {
-    width: 20%;
+    width: 30%;
   }
   .availability button {
     margin: 0;
