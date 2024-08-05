@@ -107,6 +107,24 @@ button {
   background-repeat: no-repeat;
 }
 
+@media only screen and (min-width: 1000px) {
+  .about-features-container {
+    display: flex;
+    padding-left: 5%;
+    gap: 0;
+    margin-bottom: 300px;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .about-features-container {
+    padding-left: 15%;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .about-features-container {
+    padding-left: 20%;
+  }
+}
 .swiper {
   width: 100%;
 }
@@ -322,6 +340,11 @@ button {
   margin-top: 12px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .availability {
+    margin-bottom: 120px;
+  }
+}
 .about {
   padding-top: 60px;
 }
@@ -346,8 +369,28 @@ button {
 
 @media only screen and (min-width: 1000px) {
   .about {
-    display: none;
+    order: 2;
     padding-top: 0;
+  }
+  .about__background {
+    width: 89%;
+    transform: translate(-15%, 170px);
+    padding-left: 23%;
+  }
+  .about .section-title {
+    font-size: 50px;
+  }
+  .about .section-name,
+  .about .section-title, .about__text, .about__button {
+    transform: translateY(-100px);
+  }
+  .about__text {
+    max-width: 400px;
+  }
+}
+@media only screen and (min-width: 1150px) {
+  .about .section-title {
+    font-size: 80px;
   }
 }
 .brand-features {
@@ -412,7 +455,48 @@ button {
 
 @media only screen and (min-width: 1000px) {
   .brand-features {
-    display: none;
+    order: 1;
+    display: flex;
+    margin: 0;
+    gap: 30px;
+    max-width: unset;
+    width: unset;
+  }
+  .brand-features__feature-container, .brand-features__background-container {
+    transform: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 0;
+  }
+  .brand-features__feature-container {
+    margin-bottom: 0;
+  }
+  .brand-features__feature-container--1 {
+    flex-direction: column-reverse;
+  }
+  .brand-features__feature-container--2 {
+    transform: translateY(60px);
+  }
+  .brand-features__background-container {
+    background-color: unset;
+  }
+  .brand-features .content {
+    padding: 55px 35px 38px;
+  }
+  .brand-features .content--1 {
+    box-shadow: 0px 8px 16px 0px rgba(34, 34, 34, 0.0196078431);
+    position: relative;
+  }
+  .brand-features .content--2 {
+    background-color: var(--miranda-black);
+  }
+  .brand-features img {
+    margin: 0;
+  }
+  .brand-features .icon--diluted {
+    right: 0;
   }
 }
 .rooms {

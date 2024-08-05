@@ -22,7 +22,32 @@
 
 @media only screen and (min-width: 1000px) {
     .about {
-        display: none;
+        order: 2;
         padding-top: 0;
+        &__background {
+            width: 89%;
+            transform: translate(-15%, 170px);
+            padding-left: 23%;
+        }
+        .section-title {
+            font-size: 50px;
+        }
+        .section-name,
+        .section-title,
+        &__text,
+        &__button {
+            transform: translateY(-100px);
+        }
+        &__text {
+            max-width: 400px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1150px) {
+    .about {
+        .section-title {
+            font-size: 80px;
+        }
     }
 }

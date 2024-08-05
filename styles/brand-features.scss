@@ -60,6 +60,48 @@
 
 @media only screen and (min-width: 1000px) {
     .brand-features {
-        display: none;
+        order: 1;
+        display: flex;
+        margin: 0;
+        gap: 30px;
+        max-width: unset;
+        width: unset;
+        &__feature-container,
+        &__background-container {
+            transform: unset;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 40px;
+            padding-bottom: 0;
+        }
+        &__feature-container {
+            margin-bottom: 0;
+            &--1 {
+                flex-direction: column-reverse;
+            }
+            &--2 {
+                transform: translateY(60px);
+            }
+        }
+        &__background-container {
+            background-color: unset;
+        }
+        .content {
+            padding: 55px 35px 38px;
+            &--1 {
+                box-shadow: 0px 8px 16px 0px #22222205;
+                position: relative;
+            }
+            &--2 {
+                background-color: var(--miranda-black);
+            }
+        }
+        img {
+            margin: 0;
+        }
+        .icon--diluted {
+            right: 0;
+        }
     }
 }
