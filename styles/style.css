@@ -1498,6 +1498,13 @@ button {
   gap: 20px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .room-list {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5% 20%;
+  }
+}
 .rooms-pagination .pagination {
   display: flex;
   justify-content: center;
@@ -1517,7 +1524,7 @@ button {
   color: black;
   border: 0;
   font-family: Oswald;
-  font-weight: 700;
+  font-weight: 600;
 }
 .rooms-pagination .pagination .page-link--icon {
   font-weight: unset;
