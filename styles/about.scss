@@ -24,9 +24,9 @@
     .about {
         order: 2;
         padding-top: 0;
+        width: 100%;
         &__background {
-            width: 89%;
-            transform: translate(-15%, 170px);
+            transform: translateY(170px);
             padding-left: 23%;
         }
         .section-title {
@@ -44,10 +44,18 @@
     }
 }
 
-@media only screen and (min-width: 1150px) {
+@media only screen and (min-width: 1250px) {
     .about {
         .section-title {
             font-size: 80px;
         }
     }
 }
+
+// @media only screen and (min-width: 1890px) {
+//     .about {
+//         &__background {
+//             width: 93%;
+//         }
+//     }
+// }

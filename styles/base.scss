@@ -17,11 +17,20 @@
 
 @media only screen and (min-width: 1000px) {
     .base {
+        padding-left: 10%;
+        .section-title {
+            max-width: 450px;
+            letter-spacing: -3.6px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .base {
         padding-left: 20%;
         .section-title {
             font-size: 120px;
             max-width: 660px;
-            letter-spacing: -3.6px;
         }
-    }
+    }   
 }
