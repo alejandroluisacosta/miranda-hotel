@@ -9,8 +9,15 @@
 
 @media only screen and (min-width: 1000px) {
     .carousel {
-     padding-left: 12.5%;
-     padding-right: 12.5%;
-     margin-bottom: 120px;
+        padding-left: 12.5%;
+        padding-right: 12.5%;
+        margin-bottom: 120px;
+        img {
+            width: 100%;
+            height: 100%;
+        }
+        .swiper-wrapper {
+            gap: 3%;
+        }
     }
 }

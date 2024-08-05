@@ -899,6 +899,13 @@ button {
     padding-right: 12.5%;
     margin-bottom: 120px;
   }
+  .carousel img {
+    width: 100%;
+    height: 100%;
+  }
+  .carousel .swiper-wrapper {
+    gap: 3%;
+  }
 }
 .facts {
   background-color: var(--miranda-black);
