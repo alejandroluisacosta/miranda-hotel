@@ -645,12 +645,12 @@ button {
     bottom: 12.5%;
   }
   .intro-video-container .decorative-square {
-    display: none;
+    display: block;
     position: absolute;
     right: 0;
     width: 30%;
-    padding-bottom: 100%;
-    background-color: var(--miranda-brown);
+    height: 100%;
+    background-color: #AD9D82;
   }
 }
 @media only screen and (min-width: 1080px) {
