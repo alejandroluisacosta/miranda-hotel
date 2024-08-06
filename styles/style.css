@@ -1878,8 +1878,9 @@ button {
 @media only screen and (min-width: 1000px) {
   .room-offer {
     box-shadow: unset;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin: unset;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   .room-offer .description-container {
     transform: translateY(-15%);
@@ -1934,6 +1935,12 @@ button {
   }
   .room-offer .new-price-container {
     min-width: unset;
+  }
+}
+@media only screen and (min-width: 1760px) {
+  .room-offer {
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
 .popular-list {
