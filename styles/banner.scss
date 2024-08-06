@@ -59,6 +59,28 @@
         &--offers {
             margin-bottom: 120px;
         }
+        &--contact {
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1330px) {
+    .banner {
+        &--contact {
+            padding-left: 10%;
+            padding-right: 10%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+    .banner {
+        &--contact {
+            padding-left: 15%;
+            padding-right: 15%;
+        }
     }
 }
 
@@ -66,5 +88,9 @@
     .banner {
         padding-left: 20%;
         padding-right: 20%;
+        &--contact {
+            padding-left: 18.5%;
+            padding-right: 18.5%;
+        }
     }
 }
