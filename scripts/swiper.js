@@ -11,6 +11,18 @@ const swiperRooms = new Swiper('.swiper--rooms', {
 });
 
 if (window.innerWidth < 1000) {
+  const swiperPopularRooms = new Swiper('.swiper--popular-rooms', {
+    direction: 'horizontal',
+    loop: true,
+    
+    navigation: {
+      nextEl: '#swiper-button-next--rooms',
+      prevEl: '#swiper-button-prev--rooms',
+    },
+  });
+}
+
+if (window.innerWidth < 1000) {
     const swiperCoreFeatures = new Swiper('.swiper--facilities', {
       direction: 'horizontal',
       loop: true,

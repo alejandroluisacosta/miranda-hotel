@@ -802,6 +802,9 @@ button {
     padding-bottom: 120px;
     margin-bottom: 120px;
   }
+  .facilities .swiper-slide {
+    width: unset !important;
+  }
   .swiper--facilities {
     width: 100%;
     margin: 0 0 0 50% !important;
@@ -812,9 +815,6 @@ button {
     place-items: center;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
-  }
-  .swiper .swiper-slide {
-    width: unset !important;
   }
   .swiper .slide-container {
     position: relative;
@@ -1923,6 +1923,41 @@ button {
   padding-bottom: 24px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .popular-list {
+    padding: 60px 2.5% 120px;
+  }
+  .popular-list .section-name {
+    margin-bottom: 85px;
+  }
+  .popular-list .section-title {
+    margin-bottom: 80px;
+  }
+  .popular-list .swiper-slide {
+    width: 300px;
+  }
+  .popular-list .swiper-button-prev,
+  .popular-list .swiper-button-next {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1240px) {
+  .popular-list .swiper-slide {
+    width: 370px;
+  }
+}
+@media only screen and (min-width: 1500px) {
+  .popular-list {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .popular-list {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
 .info {
   display: flex;
   flex-wrap: wrap;
