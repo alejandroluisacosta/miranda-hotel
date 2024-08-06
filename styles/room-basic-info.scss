@@ -19,3 +19,64 @@
         font-size: 13px;
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    .info-availability-container {
+        display: flex;
+        gap: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .room-basic-info {
+        position: relative;
+        padding: 0;
+        .info-container {
+            box-sizing: border-box;
+            position: absolute;
+            top: -10%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: white;
+            width: 90%;
+            padding: 38px 5% 30px;
+        }
+        .section-title {
+            font-size: 48px;
+        }
+        .price {
+            font-size: 40px;
+            margin-bottom: 0;
+        }
+        .divisor {
+            font-size: 16px;
+            margin-bottom: 0;
+        }
+        img {
+            margin-bottom: 60px;
+        }
+
+    }
+}
+
+@media only screen and (min-width: 1050) and (max-width: 1160px) {
+    .info-container {
+        .section-title {
+            max-width: 80%;
+        }
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+    .info-availability-container {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+@media only screen and (min-width: 1760px) {
+    .info-availability-container {
+        padding-left: 18.5%;
+        padding-right: 18.5%;
+    }
+}

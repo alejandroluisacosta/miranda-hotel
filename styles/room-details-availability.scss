@@ -35,3 +35,10 @@
     }
 
 }
+
+@media only screen and (min-width: 1000px) {
+    .room-details-availability {
+        padding: 0;
+        min-width: 290px;
+    }
+}

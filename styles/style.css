@@ -1208,11 +1208,11 @@ button {
   padding-bottom: 95px;
   margin-bottom: 60px;
 }
-.banner--rooms {
+.banner--rooms, .banner--room-details {
   padding-bottom: 80px;
   margin-bottom: 48px;
 }
-.banner--rooms .section-title {
+.banner--rooms .section-title, .banner--room-details .section-title {
   max-width: 60%;
 }
 .banner--offers {
@@ -1261,6 +1261,11 @@ button {
   .banner--contact {
     padding-left: 5%;
     padding-right: 5%;
+  }
+  .banner--room-details {
+    margin-bottom: 190px;
+    padding-left: 10%;
+    padding-right: 10%;
   }
 }
 @media only screen and (min-width: 1330px) {
@@ -1612,6 +1617,60 @@ button {
   font-size: 13px;
 }
 
+@media only screen and (min-width: 1000px) {
+  .info-availability-container {
+    display: flex;
+    gap: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .room-basic-info {
+    position: relative;
+    padding: 0;
+  }
+  .room-basic-info .info-container {
+    box-sizing: border-box;
+    position: absolute;
+    top: -10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 90%;
+    padding: 38px 5% 30px;
+  }
+  .room-basic-info .section-title {
+    font-size: 48px;
+  }
+  .room-basic-info .price {
+    font-size: 40px;
+    margin-bottom: 0;
+  }
+  .room-basic-info .divisor {
+    font-size: 16px;
+    margin-bottom: 0;
+  }
+  .room-basic-info img {
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 1050) and (max-width: 1160px) {
+  .info-container .section-title {
+    max-width: 80%;
+  }
+}
+@media only screen and (min-width: 1550px) {
+  .info-availability-container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media only screen and (min-width: 1760px) {
+  .info-availability-container {
+    padding-left: 18.5%;
+    padding-right: 18.5%;
+  }
+}
 .room-details-availability {
   background-color: white;
   font-family: Archivo;
@@ -1649,6 +1708,12 @@ button {
   font-weight: 400;
 }
 
+@media only screen and (min-width: 1000px) {
+  .room-details-availability {
+    padding: 0;
+    min-width: 290px;
+  }
+}
 .room-details-description {
   padding-left: 5.5%;
   padding-right: 5.5%;
@@ -1658,7 +1723,19 @@ button {
   line-height: 24px;
   margin-bottom: 60px;
 }
+.room-details-description--desktop {
+  display: none;
+}
 
+@media only screen and (min-width: 1000px) {
+  .room-details-description--mobile {
+    display: none;
+  }
+  .room-details-description--desktop {
+    display: block;
+    padding: 0;
+  }
+}
 .amenities {
   padding: 0 5% 11px;
 }

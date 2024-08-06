@@ -6,4 +6,19 @@
     font-size: 14px;
     line-height: 24px;
     margin-bottom: 60px;
+    &--desktop {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .room-details-description {
+        &--mobile {
+            display: none;
+        }
+        &--desktop {
+            display: block;
+            padding: 0;
+        }
+    }
 }

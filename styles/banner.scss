@@ -9,7 +9,7 @@
         padding-bottom: 95px;
         margin-bottom: 60px;
     }
-    &--rooms {
+    &--rooms, &--room-details {
         padding-bottom: 80px;
         margin-bottom: 48px;
         .section-title {
@@ -62,6 +62,11 @@
         &--contact {
             padding-left: 5%;
             padding-right: 5%;
+        }
+        &--room-details {
+            margin-bottom: 190px;
+            padding-left: 10%;
+            padding-right: 10%;
         }
     }
 }
