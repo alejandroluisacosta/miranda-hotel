@@ -9,11 +9,11 @@
         padding-bottom: 95px;
         margin-bottom: 60px;
     }
-    &--room-details {
+    &--rooms {
         padding-bottom: 80px;
         margin-bottom: 48px;
         .section-title {
-            max-width: 50%;
+            max-width: 60%;
         }
     }
     &--offers {
@@ -52,12 +52,19 @@
 
 @media only screen and (min-width: 1000px) {
     .banner {
-        padding: 160px 20% 85px;
+        padding: 160px 15% 85px;
         .links-container {
             right: 15%;
         }
         &--offers {
             margin-bottom: 120px;
         }
+    }
+}
+
+@media only screen and (min-width: 1760px) {
+    .banner {
+        padding-left: 20%;
+        padding-right: 20%;
     }
 }

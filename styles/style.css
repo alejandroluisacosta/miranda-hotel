@@ -1208,12 +1208,12 @@ button {
   padding-bottom: 95px;
   margin-bottom: 60px;
 }
-.banner--room-details {
+.banner--rooms {
   padding-bottom: 80px;
   margin-bottom: 48px;
 }
-.banner--room-details .section-title {
-  max-width: 50%;
+.banner--rooms .section-title {
+  max-width: 60%;
 }
 .banner--offers {
   padding-bottom: 96px;
@@ -1250,13 +1250,19 @@ button {
 
 @media only screen and (min-width: 1000px) {
   .banner {
-    padding: 160px 20% 85px;
+    padding: 160px 15% 85px;
   }
   .banner .links-container {
     right: 15%;
   }
   .banner--offers {
     margin-bottom: 120px;
+  }
+}
+@media only screen and (min-width: 1760px) {
+  .banner {
+    padding-left: 20%;
+    padding-right: 20%;
   }
 }
 .about-video {
@@ -2111,6 +2117,7 @@ button {
   border: none;
   background: none;
   margin-top: 3px;
+  color: var(--miranda-gray);
 }
 .contact-form .input-container--text-area {
   align-items: flex-start;
@@ -2142,6 +2149,9 @@ button {
   }
   .contact-form .row-of-two .input-container {
     width: 45%;
+  }
+  .contact-form .input-container {
+    margin-bottom: 30px;
   }
 }
 @media only screen and (min-width: 1330px) {
