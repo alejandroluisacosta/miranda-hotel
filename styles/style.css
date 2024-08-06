@@ -1945,6 +1945,24 @@ button {
   margin-bottom: 0;
 }
 
+@media only screen and (min-width: 1000px) {
+  .related-rooms {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+}
+@media only screen and (min-width: 1550px) {
+  .related-rooms {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+@media only screen and (min-width: 1760px) {
+  .related-rooms {
+    padding-right: 15%;
+    padding-left: 18.5%;
+  }
+}
 .room-offer {
   box-shadow: 0px 14px 24px 0px rgba(184, 184, 184, 0.1019607843);
   margin: 0 5% 32px;
