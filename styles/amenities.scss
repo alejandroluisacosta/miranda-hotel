@@ -34,3 +34,27 @@
         line-height: 18px;
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    .amenities {
+        padding-left: 10%;
+        padding-right: 40%;        
+        .amenities-container {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+    .amenities {
+        padding-left: 15%;
+        padding-right: 45%;
+    }
+}
+
+@media only screen and (min-width: 1760px) {
+    .amenities {
+        padding-left: 18.5%;
+        padding-right: 40%;
+    }
+}
