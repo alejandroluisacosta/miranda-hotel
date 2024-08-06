@@ -100,6 +100,9 @@
             padding: 60px;
             border-top: 6px solid var(--miranda-brown);
         }
+        .section-title {
+            max-width: 70%;
+        }
         .header-info {
             display: flex;
             justify-content: space-between;
@@ -111,6 +114,9 @@
             &--desktop {
                 display: inline-block;
                 text-align: end;
+            }
+            .new-price-container {
+                min-width: 110px;
             }
         }
         hr {
@@ -133,6 +139,17 @@
         }
         button {
             display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 1130px) {
+    .room-offer {
+        .section-title {
+            max-width: unset;
+        }
+        .new-price-container {
+            min-width: unset;
         }
     }
 }

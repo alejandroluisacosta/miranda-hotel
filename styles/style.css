@@ -1856,6 +1856,9 @@ button {
     padding: 60px;
     border-top: 6px solid var(--miranda-brown);
   }
+  .room-offer .section-title {
+    max-width: 70%;
+  }
   .room-offer .header-info {
     display: flex;
     justify-content: space-between;
@@ -1866,6 +1869,9 @@ button {
   .room-offer .prices-container--desktop {
     display: inline-block;
     text-align: end;
+  }
+  .room-offer .prices-container .new-price-container {
+    min-width: 110px;
   }
   .room-offer hr {
     display: block;
@@ -1887,6 +1893,14 @@ button {
   }
   .room-offer button {
     display: none;
+  }
+}
+@media only screen and (min-width: 1130px) {
+  .room-offer .section-title {
+    max-width: unset;
+  }
+  .room-offer .new-price-container {
+    min-width: unset;
   }
 }
 .popular-list {
