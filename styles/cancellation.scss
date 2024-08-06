@@ -20,3 +20,23 @@
         color: var(--miranda-gray);
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    .cancellation {
+        padding-right: unset;
+        padding-left: 12.5%;
+        width: 770px;
+    }
+}
+
+@media only screen and (min-width: 1550px) {
+    .cancellation {
+        padding-left: 17.5%;
+    }
+}
+
+@media only screen and (min-width: 1760px) {
+    .cancellation {
+        padding-left: 20%;
+    }
+}
