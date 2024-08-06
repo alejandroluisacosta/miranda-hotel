@@ -33,3 +33,32 @@
         padding: 20px 105px;
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    .contact-form {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+        .row-of-two {
+            display: flex;
+            justify-content: space-between;
+            gap: 3%;
+            .input-container {
+                width: 45%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1330px) {
+    .contact-form {
+        padding-left: 17.5%;
+        padding-right: 17.5%;
+    }
+}
+
+@media only screen and (min-width: 1760px) {
+    .contact-form {
+        padding-left: 25%;
+        padding-right: 25%;
+    }
+}

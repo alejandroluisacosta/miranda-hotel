@@ -1156,10 +1156,16 @@ button {
     padding-right: 10%;
   }
 }
+@media only screen and (min-width: 1550px) {
+  .contact-image-container {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
 @media only screen and (min-width: 1760px) {
   .contact-image-container {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 18.5%;
+    padding-right: 18.5%;
   }
 }
 .legal-info {
@@ -2055,6 +2061,20 @@ button {
     padding-right: 5%;
     justify-content: space-around;
   }
+  .info__container {
+    max-width: 300px;
+  }
+}
+@media only screen and (min-width: 1190px) {
+  .info {
+    width: unset;
+    padding-left: 5%;
+    padding-right: 5%;
+    justify-content: space-around;
+  }
+  .info__container {
+    max-width: 405px;
+  }
 }
 @media only screen and (min-width: 1330px) {
   .info {
@@ -2062,10 +2082,16 @@ button {
     padding-right: 10%;
   }
 }
+@media only screen and (min-width: 1550px) {
+  .info {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
 @media only screen and (min-width: 1760px) {
   .info {
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 18.5%;
+    padding-right: 18.5%;
   }
 }
 .contact-form {
@@ -2102,6 +2128,33 @@ button {
 }
 .contact-form button {
   padding: 20px 105px;
+}
+
+@media only screen and (min-width: 1000px) {
+  .contact-form {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+  .contact-form .row-of-two {
+    display: flex;
+    justify-content: space-between;
+    gap: 3%;
+  }
+  .contact-form .row-of-two .input-container {
+    width: 45%;
+  }
+}
+@media only screen and (min-width: 1330px) {
+  .contact-form {
+    padding-left: 17.5%;
+    padding-right: 17.5%;
+  }
+}
+@media only screen and (min-width: 1760px) {
+  .contact-form {
+    padding-left: 25%;
+    padding-right: 25%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -59,6 +59,21 @@
         padding-left: 5%;
         padding-right: 5%;
         justify-content: space-around;
+        &__container {
+            max-width: 300px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1190px) {
+    .info {
+        width: unset;
+        padding-left: 5%;
+        padding-right: 5%;
+        justify-content: space-around;
+        &__container {
+            max-width: 405px;
+        }
     }
 }
 
@@ -69,9 +84,17 @@
     }
 }
 
+@media only screen and (min-width: 1550px) {
+    .info {
+        padding-left: 15%;
+        padding-right: 15%;
+    }
+}
+
+
 @media only screen and (min-width: 1760px) {
     .info {
-        padding-left: 20%;
-        padding-right: 20%;
+        padding-left: 18.5%;
+        padding-right: 18.5%;
     }
 }
