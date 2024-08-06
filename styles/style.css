@@ -1228,6 +1228,9 @@ button {
   .banner .links-container {
     right: 15%;
   }
+  .banner--offers {
+    margin-bottom: 120px;
+  }
 }
 .about-video {
   padding: 0 5.5%;
@@ -1765,11 +1768,14 @@ button {
   width: 100%;
   max-height: 85%;
 }
-.room-offer .prices-container {
+.room-offer .prices-container--mobile {
   position: absolute;
   bottom: 5%;
   right: 5%;
   text-align: right;
+}
+.room-offer .prices-container--desktop {
+  display: none;
 }
 .room-offer .old-price, .room-offer .old-price-divisor,
 .room-offer .new-price, .room-offer .new-price-divisor {
@@ -1798,6 +1804,9 @@ button {
   color: #DE5777;
   font-size: 13px;
   margin-left: -2px;
+}
+.room-offer hr {
+  display: none;
 }
 .room-offer .description-container {
   padding: 0 6% 32px;
@@ -1829,7 +1838,57 @@ button {
   padding-left: 57.5px;
   padding-right: 57.5px;
 }
+.room-offer .description-container .desktop-button {
+  display: none;
+}
 
+@media only screen and (min-width: 1000px) {
+  .room-offer {
+    box-shadow: unset;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+  .room-offer .description-container {
+    transform: translateY(-15%);
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 60px;
+    border-top: 6px solid var(--miranda-brown);
+  }
+  .room-offer .header-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  .room-offer .prices-container--mobile {
+    display: none;
+  }
+  .room-offer .prices-container--desktop {
+    display: inline-block;
+    text-align: end;
+  }
+  .room-offer hr {
+    display: block;
+    border: none;
+    height: 1px;
+    background-color: #ECECEC;
+    margin-bottom: 35px;
+  }
+  .room-offer .bottom-info {
+    display: flex;
+    gap: 7.5%;
+  }
+  .room-offer .bottom-info .description {
+    max-width: 500px;
+    margin-bottom: 16px;
+  }
+  .room-offer .bottom-info .desktop-button {
+    display: block;
+  }
+  .room-offer button {
+    display: none;
+  }
+}
 .popular-list {
   text-align: center;
   padding: 50px 5%;

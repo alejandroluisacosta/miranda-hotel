@@ -11,10 +11,15 @@
         max-height: 85%;
     }
     .prices-container {
-        position: absolute;
-        bottom: 5%;
-        right: 5%;
-        text-align: right;
+        &--mobile {
+            position: absolute;
+            bottom: 5%;
+            right: 5%;
+            text-align: right;
+        }
+        &--desktop {
+            display: none;
+        }
     }
     .old-price, .old-price-divisor,
     .new-price, .new-price-divisor {
@@ -44,6 +49,9 @@
         font-size: 13px;
         margin-left: -2px;
     }
+    hr {
+        display: none;
+    }
     .description-container {
         padding: 0 6% 32px;
         .section-name {
@@ -72,6 +80,59 @@
         button {
             padding-left: 57.5px;
             padding-right: 57.5px;
+        }
+        .desktop-button {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .room-offer {
+        box-shadow: unset;
+        margin-left: 20%;
+        margin-right: 20%;
+        .description-container {
+            transform: translateY(-15%);
+            background-color: white;
+            margin-left: 5%;
+            margin-right: 5%;
+            padding: 60px;
+            border-top: 6px solid var(--miranda-brown);
+        }
+        .header-info {
+            display: flex;
+            justify-content: space-between;
+        }
+        .prices-container {
+            &--mobile {
+                display: none;
+            }
+            &--desktop {
+                display: inline-block;
+                text-align: end;
+            }
+        }
+        hr {
+            display: block;
+            border: none;
+            height: 1px;
+            background-color: #ECECEC;
+            margin-bottom: 35px;
+        }
+        .bottom-info {
+            display: flex;
+            gap: 7.5%;
+            .description {
+                max-width: 500px;
+                margin-bottom: 16px;
+            }
+            .desktop-button {
+                display: block;
+            }
+        }
+        button {
+            display: none;
         }
     }
 }
