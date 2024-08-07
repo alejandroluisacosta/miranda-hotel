@@ -1,5 +1,6 @@
 .dish {
     display: flex;
+    align-items: center;
     margin-bottom: 16px;
     img {
         width: 120px;
@@ -21,5 +22,33 @@
         font-size: 14px;
         font-weight: 400;
         line-height: 24px;
+    }
+    .arrow {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    .dish {
+        position: relative;
+        .description {
+            margin-right: 5%;
+        }
+        .arrow {
+            display: none;
+            margin-right: 5%;
+            width: 32px;
+            height: 15px;
+        }
+        &:hover {
+            background-color: var(--miranda-black);
+            color: white;
+            .name {
+                color: white;
+            }
+            .arrow {
+                display: block;
+            }
+        }
     }
 }

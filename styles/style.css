@@ -886,11 +886,6 @@ button {
     width: 80%;
   }
 }
-@media only screen and (min-width: 1750px) {
-  .facilities .swiper--facilities {
-    width: 67.5%;
-  }
-}
 .menu {
   padding: 115px 8.5% 0;
   margin-bottom: 60px;
@@ -901,6 +896,9 @@ button {
   margin-top: -115px;
   width: 115px;
   height: 115px;
+}
+.menu .donut--desktop {
+  display: none;
 }
 .menu .section-name {
   margin-bottom: 24px;
@@ -919,6 +917,9 @@ button {
   justify-content: flex-end;
   gap: 16px;
 }
+.menu__buttons-container--desktop {
+  display: none;
+}
 .menu button {
   padding: 13px 15px;
 }
@@ -928,11 +929,54 @@ button {
 
 @media only screen and (min-width: 1000px) {
   .menu {
-    right: calc(50% + 20px);
+    padding-left: 5%;
+    padding-right: 5%;
+    position: relative;
+  }
+  .menu .donut {
+    display: none;
+  }
+  .menu .donut--desktop {
+    display: block;
+    position: absolute;
+    width: 229px;
+    height: 229px;
+    left: 5%;
+    top: -25%;
+    margin: 0;
+  }
+  .menu .title-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .menu__buttons-container {
+    display: none;
+  }
+  .menu__buttons-container--desktop {
+    display: flex;
+    gap: 15%;
+  }
+  .menu button {
+    width: 45px;
+    height: 45px;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  .menu {
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .menu {
+    padding-left: 12.5%;
+    padding-right: 12.5%;
   }
 }
 .dish {
   display: flex;
+  align-items: center;
   margin-bottom: 16px;
 }
 .dish img {
@@ -956,7 +1000,34 @@ button {
   font-weight: 400;
   line-height: 24px;
 }
+.dish .arrow {
+  display: none;
+}
 
+@media only screen and (min-width: 1000px) {
+  .dish {
+    position: relative;
+  }
+  .dish .description {
+    margin-right: 5%;
+  }
+  .dish .arrow {
+    display: none;
+    margin-right: 5%;
+    width: 32px;
+    height: 15px;
+  }
+  .dish:hover {
+    background-color: var(--miranda-black);
+    color: white;
+  }
+  .dish:hover .name {
+    color: white;
+  }
+  .dish:hover .arrow {
+    display: block;
+  }
+}
 .carousel {
   text-align: center;
   margin-bottom: 90px;

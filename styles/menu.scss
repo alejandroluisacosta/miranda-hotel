@@ -7,6 +7,9 @@
         margin-top: -115px;
         width: 115px;
         height: 115px;
+        &--desktop {
+            display: none;
+        }
     }
     .section-name {
         margin-bottom: 24px;
@@ -24,6 +27,9 @@
         display: flex;
         justify-content: flex-end;
         gap: 16px;
+        &--desktop {
+            display: none;
+        }
     }
     button {
         padding: 13px 15px;
@@ -35,7 +41,50 @@
 
 @media only screen and (min-width: 1000px) {
     .menu {
-        // display: none;
-        right: calc(50% + 20px)
+        padding-left: 5%;
+        padding-right: 5%;
+        position: relative;
+        .donut {
+            display: none;
+            &--desktop {
+                display: block;
+                position: absolute;
+                width: 229px;
+                height: 229px;
+                left: 5%;
+                top: -25%;
+                margin: 0;
+            }
+        }
+        .title-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        &__buttons-container {
+            display: none;
+            &--desktop {
+                display: flex;
+                gap: 15%;
+            }
+        }
+        button {
+            width: 45px;
+            height: 45px;
+        }
+    }
+}
+
+@media only screen and (min-width: 1250px) {
+    .menu {
+        padding-left: 7.5%;
+        padding-right: 7.5%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .menu {
+        padding-left: 12.5%;
+        padding-right: 12.5%;
     }
 }

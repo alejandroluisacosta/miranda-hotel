@@ -18,7 +18,7 @@ const swiperRoomsDesktop = new Swiper('.swiper--rooms--desktop', {
       nextEl: '#swiper-button-next--rooms',
       prevEl: '#swiper-button-prev--rooms',
     },
-  spaceBetween: 30,
+    spaceBetween: 30,
 });
 
 if (window.innerWidth < 1000) {
@@ -66,6 +66,12 @@ const swiperMenu = new Swiper('.swiper--menu', {
       nextEl: '#swiper-button-next--menu',
       prevEl: '#swiper-button-prev--menu',
     },
+    breakpoints: {
+      1000: {
+        slidesPerView: 2,
+        spaceBetween: 20
+      },
+    }
 });
 
 if (window.innerWidth < 1000) {
