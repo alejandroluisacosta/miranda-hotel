@@ -5,3 +5,30 @@
         transform: translateY(50%);
     }
 }
+
+@media only screen and (min-width: 1000px) {
+    .rooms {
+        .swiper {
+            max-width: 50%;
+            height: 100%;
+            img {
+                height: 500px !important;
+            }
+            .room-description-card {
+                max-width: 60%;
+            }
+            .swiper-button-next,
+            .swiper-button-prev {
+                transform: translateY(-200%);
+                width: 45px;
+                height: 45px;
+            }
+            .swiper-button-next {
+                right: 7.5%;
+            }
+            .swiper-button-prev {
+                left: 7.5%;
+            }
+        }
+    }
+}

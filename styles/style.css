@@ -551,6 +551,30 @@ button {
   transform: translateY(50%);
 }
 
+@media only screen and (min-width: 1000px) {
+  .rooms .swiper {
+    max-width: 50%;
+    height: 100%;
+  }
+  .rooms .swiper img {
+    height: 500px !important;
+  }
+  .rooms .swiper .room-description-card {
+    max-width: 60%;
+  }
+  .rooms .swiper .swiper-button-next,
+  .rooms .swiper .swiper-button-prev {
+    transform: translateY(-200%);
+    width: 45px;
+    height: 45px;
+  }
+  .rooms .swiper .swiper-button-next {
+    right: 7.5%;
+  }
+  .rooms .swiper .swiper-button-prev {
+    left: 7.5%;
+  }
+}
 .icon-bar {
   position: relative;
   display: flex;
@@ -805,43 +829,43 @@ button {
   .facilities .swiper-slide {
     width: unset !important;
   }
-  .swiper--facilities {
+  .facilities .swiper--facilities {
     width: 100%;
     margin: 0 0 0 50% !important;
     transform: translate(-50%);
   }
-  .swiper .swiper-wrapper {
+  .facilities .swiper .swiper-wrapper {
     display: grid !important;
     place-items: center;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
   }
-  .swiper .slide-container {
+  .facilities .swiper .slide-container {
     position: relative;
     box-sizing: border-box;
     width: 375px;
     height: 370px;
   }
-  .swiper .slide-container .number {
+  .facilities .swiper .slide-container .number {
     top: -5.5%;
     right: 0;
   }
-  .swiper .slide-container .description {
+  .facilities .swiper .slide-container .description {
     max-width: unset;
   }
 }
 @media only screen and (min-width: 1250px) {
-  .swiper--facilities {
+  .facilities .swiper--facilities {
     width: 95%;
   }
 }
 @media only screen and (min-width: 1600px) {
-  .swiper--facilities {
+  .facilities .swiper--facilities {
     width: 80%;
   }
 }
 @media only screen and (min-width: 1750px) {
-  .swiper--facilities {
+  .facilities .swiper--facilities {
     width: 67.5%;
   }
 }
@@ -882,7 +906,7 @@ button {
 
 @media only screen and (min-width: 1000px) {
   .menu {
-    display: none;
+    right: calc(50% + 20px);
   }
 }
 .dish {
