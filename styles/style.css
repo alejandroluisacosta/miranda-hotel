@@ -1049,6 +1049,10 @@ button {
   }
   .carousel .swiper-wrapper {
     gap: 3%;
+    display: grid !important;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
   }
 }
 @media only screen and (min-width: 1250px) {
