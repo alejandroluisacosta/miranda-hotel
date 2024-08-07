@@ -4,11 +4,26 @@
     .icon-bar {
         transform: translateY(50%);
     }
+    .icon-bar--desktop {
+        display: none;
+    }
+    .swiper--rooms--desktop {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 1000px) {
     .rooms {
+        .section-title {
+            margin-bottom: 85px;
+        }
         .icon-bar--mobile {
+            display: none;
+        }
+        .swiper--rooms--desktop {
+            display: block;
+        }
+        .swiper--rooms--mobile {
             display: none;
         }
         .swiper {
@@ -31,10 +46,10 @@
                 height: 45px;
             }
             .swiper-button-next {
-                right: 7.5%;
+                right: 30%;
             }
             .swiper-button-prev {
-                left: 7.5%;
+                left: 30%;
             }
         }
     }

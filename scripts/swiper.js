@@ -1,4 +1,14 @@
-const swiperRooms = new Swiper('.swiper--rooms', {
+const swiperRooms = new Swiper('.swiper--rooms--mobile', {
+    direction: 'horizontal',
+    loop: true,
+    
+    navigation: {
+      nextEl: '#swiper-button-next--rooms',
+      prevEl: '#swiper-button-prev--rooms',
+    },
+});
+
+const swiperRoomsDesktop = new Swiper('.swiper--rooms--desktop', {
     direction: 'horizontal',
     loop: true,
     
@@ -8,7 +18,7 @@ const swiperRooms = new Swiper('.swiper--rooms', {
       nextEl: '#swiper-button-next--rooms',
       prevEl: '#swiper-button-prev--rooms',
     },
-  // spaceBetween: window.innerWidth > 1000 ?? 30,
+  spaceBetween: 30,
 });
 
 if (window.innerWidth < 1000) {
