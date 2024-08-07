@@ -1275,7 +1275,7 @@ button {
   }
 }
 @media only screen and (min-width: 1550px) {
-  .banner--contact {
+  .banner--contact, .banner--room-details {
     padding-left: 15%;
     padding-right: 15%;
   }
@@ -1949,6 +1949,18 @@ button {
   .related-rooms {
     padding-left: 10%;
     padding-right: 10%;
+  }
+  .related-rooms .swiper-wrapper {
+    gap: 5%;
+  }
+  .related-rooms .swiper-button-prev,
+  .related-rooms .swiper-button-next {
+    display: none;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .related-rooms .swiper-wrapper {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 @media only screen and (min-width: 1550px) {

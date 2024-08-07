@@ -39,6 +39,21 @@
     .related-rooms {
         padding-left: 10%;
         padding-right: 10%;
+        .swiper-wrapper {
+            gap: 5%;
+        }
+        .swiper-button-prev,
+        .swiper-button-next {
+            display: none;
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .related-rooms {
+        .swiper-wrapper {
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 }
 
