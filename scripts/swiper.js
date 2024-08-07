@@ -2,7 +2,8 @@ const swiperRooms = new Swiper('.swiper--rooms', {
     direction: 'horizontal',
     loop: true,
     
-    // slidesPerView: window.innerWidth > 1000 ?? 3,
+    slidesPerView: 3,
+    centeredSlides: true,
     navigation: {
       nextEl: '#swiper-button-next--rooms',
       prevEl: '#swiper-button-prev--rooms',

@@ -8,10 +8,17 @@
 
 @media only screen and (min-width: 1000px) {
     .rooms {
+        .icon-bar--mobile {
+            display: none;
+        }
         .swiper {
-            max-width: 50%;
+            max-width: 100%;
             height: 100%;
-            img {
+            .swiper-wrapper {
+                gap: 5%;
+                margin-left: -10%;
+            }
+            .image {
                 height: 500px !important;
             }
             .room-description-card {
