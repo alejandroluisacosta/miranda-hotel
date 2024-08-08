@@ -1471,13 +1471,13 @@ ul {
   }
 }
 @media only screen and (min-width: 1330px) {
-  .banner--contact {
+  .banner--contact, .banner--rooms {
     padding-left: 10%;
     padding-right: 10%;
   }
 }
 @media only screen and (min-width: 1550px) {
-  .banner--contact, .banner--room-details {
+  .banner--contact, .banner--room-details, .banner--rooms {
     padding-left: 15%;
     padding-right: 15%;
   }
@@ -1765,8 +1765,28 @@ ul {
 @media only screen and (min-width: 1000px) {
   .room-list {
     display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 60px;
+  }
+}
+@media only screen and (min-width: 1250px) {
+  .room-list {
     grid-template-columns: repeat(3, 1fr);
-    padding: 5% 20%;
+  }
+}
+@media only screen and (min-width: 1300px) {
+  .room-list {
+    padding: 0 10%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .room-list {
+    padding: 0 15%;
+  }
+}
+@media only screen and (min-width: 1800px) {
+  .room-list {
+    padding: 0 20%;
   }
 }
 .rooms-pagination .pagination {
@@ -1798,6 +1818,11 @@ ul {
   color: white;
 }
 
+@media only screen and (min-width: 1000px) {
+  .rooms-pagination {
+    margin-bottom: 60px;
+  }
+}
 .room-basic-info {
   padding-left: 5%;
   padding-right: 5%;

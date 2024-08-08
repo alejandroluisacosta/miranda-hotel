@@ -15,7 +15,32 @@
 @media only screen and (min-width: 1000px) {
     .room-list {
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        padding: 5% 20%;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 60px;
     }
 }
+
+@media only screen and (min-width: 1250px) {
+    .room-list {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media only screen and (min-width: 1300px) {
+    .room-list {
+        padding: 0 10%;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .room-list {
+        padding: 0 15%;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .room-list {
+        padding: 0 20%;
+    }
+}
+
