@@ -79,8 +79,8 @@
             .slide-container {
                 position: relative;
                 box-sizing: border-box;
-                width: 375px;
-                height: 370px;
+                width: 250px;
+                height: 420px;
                 .number {
                     top: -5.5%;
                     right: 0;
@@ -97,7 +97,11 @@
     .facilities {
         .swiper {
             &--facilities {
-                width: 95%;
+                width: 90%;
+            }
+            .slide-container {
+                width: 375px;
+                height: 370px;
             }
         }
     }
@@ -108,6 +112,16 @@
         .swiper {
             &--facilities {
                 width: 85%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1900px) {
+    .facilities {
+        .swiper {
+            &--facilities {
+                width: 63%;
             }
         }
     }

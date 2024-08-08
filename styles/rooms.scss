@@ -19,6 +19,7 @@
 
 @media only screen and (min-width: 1000px) {
     .rooms {
+        margin-bottom: 60px;
         .section-title {
             margin-bottom: 85px;
         }
@@ -32,12 +33,6 @@
             display: none;
         }
         .swiper {
-            max-width: 100%;
-            height: 100%;
-            .swiper-wrapper {
-                gap: 5%;
-                margin-left: -10%;
-            }
             .room-description-card {
                 max-width: 80%;
             }
@@ -48,13 +43,13 @@
                 height: 70px;
             }
             .swiper-button-next {
-                right: 28.5%;
+                right: 24.5%;
             }
             .swiper-button-prev {
-                left: 28.5%;
+                left: 24.5%;
             }
             .single-image-container {
-                padding-bottom: 100%;
+                padding-bottom: 80%;
             }
         }
     }

@@ -45,6 +45,10 @@
         padding-right: 10%;
         .swiper-wrapper {
             gap: 5%;
+            display: grid !important;
+            place-items: center;
+            grid-template-columns: repeat(3, 1fr);
+            row-gap: 20px;
         }
         .swiper-button-prev,
         .swiper-button-next {

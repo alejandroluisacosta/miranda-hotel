@@ -45,7 +45,8 @@
 
 @media only screen and (min-width: 1000px) {
     .counter {
-        padding: 0 5%;
+        padding-left: 10%;
+        padding-right: 10%;
         margin-bottom: 120px;
         .section-title {
             margin-bottom: 42px;
@@ -82,14 +83,14 @@
 
 @media only screen and (min-width: 1450px) {
     .counter {
-        margin-left: 10%;
-        margin-right: 10%;
+        padding-left: 10%;
+        padding-right: 10%;
     }
 }
 
 @media only screen and (min-width: 1900px) {
     .counter {
-        margin-left: 18.75%;
-        margin-right: 18.75%;
+        padding-left: 18.75%;
+        padding-right: 18.75%;
     }
 }
