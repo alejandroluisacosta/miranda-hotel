@@ -1,3 +1,9 @@
+.header-container {
+    width: 100%;
+    position: fixed;
+    z-index: 5;
+    background-color: white;
+}
 .header {
     padding: 17px 0 17px 5.5%;
     display: flex;
@@ -73,6 +79,10 @@ ul {
     display: block;
 }
 
+.slogan {
+    display: none;
+}
+
 @media only screen and (min-width: 600px) {
     .header {
         box-shadow: unset;
@@ -85,11 +95,21 @@ ul {
 }
 
 @media only screen and (min-width: 1000px) {
+    .header-container {
+        position: fixed;
+        width: 100%;
+        background-color: unset;
+        .slogan {
+            display: block;
+            position: absolute;
+            top: 10px;
+            left: 11.5%;
+            color: white;
+        }
+    }
     .header {
-        position: absolute;
-        top: 40px;
         left: 50%;
-        transform: translateX(-50%);
+        transform: translate(-50%, -50%);
         margin: 0;
         width: 75%;
         z-index: 1;

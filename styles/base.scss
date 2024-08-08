@@ -1,6 +1,6 @@
 .base {
     background-color: var(--miranda-dark-gray);
-    padding: 75px 4% 125px;
+    padding: 125px 4% 125px;
     .section-name, .section-title {
         margin-bottom: 40px;
     }
@@ -19,7 +19,7 @@
 
 @media only screen and (min-width: 1000px) {
     .base {
-        padding-top: 180px;
+        padding-top: 250px;
         padding-left: 15%;
         .section-title {
             max-width: 450px;

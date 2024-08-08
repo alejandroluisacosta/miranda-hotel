@@ -190,7 +190,7 @@ button {
 }
 .base {
   background-color: var(--miranda-dark-gray);
-  padding: 75px 4% 125px;
+  padding: 125px 4% 125px;
 }
 .base .section-name, .base .section-title {
   margin-bottom: 40px;
@@ -209,7 +209,7 @@ button {
 
 @media only screen and (min-width: 1000px) {
   .base {
-    padding-top: 180px;
+    padding-top: 250px;
     padding-left: 15%;
   }
   .base .section-title {
@@ -226,6 +226,13 @@ button {
     max-width: 660px;
   }
 }
+.header-container {
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  background-color: white;
+}
+
 .header {
   padding: 17px 0 17px 5.5%;
   display: flex;
@@ -301,6 +308,10 @@ ul {
   display: block;
 }
 
+.slogan {
+  display: none;
+}
+
 @media only screen and (min-width: 600px) {
   .header {
     box-shadow: unset;
@@ -310,11 +321,21 @@ ul {
   }
 }
 @media only screen and (min-width: 1000px) {
-  .header {
+  .header-container {
+    position: fixed;
+    width: 100%;
+    background-color: unset;
+  }
+  .header-container .slogan {
+    display: block;
     position: absolute;
-    top: 40px;
+    top: 10px;
+    left: 11.5%;
+    color: white;
+  }
+  .header {
     left: 50%;
-    transform: translateX(-50%);
+    transform: translate(-50%, -50%);
     margin: 0;
     width: 75%;
     z-index: 1;
@@ -1403,7 +1424,7 @@ ul {
 .banner {
   position: relative;
   background-color: var(--miranda-dark-gray);
-  padding-top: 75px;
+  padding-top: 125px;
   padding-left: 5.5%;
   padding-right: 5.5%;
   margin-bottom: 48px;
@@ -1455,7 +1476,7 @@ ul {
 @media only screen and (min-width: 1000px) {
   .banner {
     margin-bottom: 120px;
-    padding: 160px 15% 85px;
+    padding: 210px 15% 85px;
   }
   .banner .links-container {
     right: 15%;
