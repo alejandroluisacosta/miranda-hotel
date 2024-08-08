@@ -33,6 +33,7 @@
         height: 32px;
         background-color: #BDAC8D;
         color: white !important;
+        transform: translateY(-210%);
     }
 
     .swiper-button-prev::after,
@@ -48,5 +49,9 @@
         .swiper-button-prev {
             left: 27.5%;
         }
+    }
+    .swiper-button-prev::after,
+    .swiper-button-next::after {
+        font-size: 18px !important;
     }
 }

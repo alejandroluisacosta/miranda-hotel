@@ -32,6 +32,11 @@
         max-width: unset;
         padding-bottom: 24px;
     }
+    .swiper-button-next,
+    .swiper-button-prev {
+        width: 45px;
+        height: 45px;
+    }
 }
 
 @media only screen and (min-width: 1000px) {

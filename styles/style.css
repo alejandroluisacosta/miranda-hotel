@@ -164,6 +164,7 @@ button {
   height: 32px;
   background-color: #BDAC8D;
   color: white !important;
+  transform: translateY(-210%);
 }
 
 .swiper-button-prev::after,
@@ -177,6 +178,10 @@ button {
   }
   .swiper .swiper-button-prev {
     left: 27.5%;
+  }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 18px !important;
   }
 }
 .base {
@@ -558,6 +563,11 @@ button {
 .rooms .swiper--rooms--desktop {
   display: none;
 }
+.rooms .swiper-button-next,
+.rooms .swiper-button-prev {
+  width: 45px;
+  height: 45px;
+}
 
 @media only screen and (min-width: 1000px) {
   .rooms .section-title {
@@ -589,14 +599,14 @@ button {
   .rooms .swiper .swiper-button-next,
   .rooms .swiper .swiper-button-prev {
     transform: translateY(-200%);
-    width: 45px;
-    height: 45px;
+    width: 70px;
+    height: 70px;
   }
   .rooms .swiper .swiper-button-next {
-    right: 30%;
+    right: 28.5%;
   }
   .rooms .swiper .swiper-button-prev {
-    left: 30%;
+    left: 28.5%;
   }
 }
 .icon-bar {
@@ -2078,6 +2088,11 @@ button {
   padding-bottom: 0;
   margin-bottom: 0;
 }
+.related-rooms .swiper-button-next,
+.related-rooms .swiper-button-prev {
+  width: 45px;
+  height: 45px;
+}
 
 @media only screen and (min-width: 1000px) {
   .related-rooms {
@@ -2296,6 +2311,11 @@ button {
   margin-right: unset;
   max-width: unset;
   padding-bottom: 24px;
+}
+.popular-list .swiper-button-next,
+.popular-list .swiper-button-prev {
+  width: 45px;
+  height: 45px;
 }
 
 @media only screen and (min-width: 1000px) {
