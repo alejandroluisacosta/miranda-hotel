@@ -2416,6 +2416,13 @@ ul {
   .popular-list .section-title {
     margin-bottom: 80px;
   }
+  .popular-list .swiper-wrapper {
+    gap: 3%;
+    display: grid !important;
+    place-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 20px;
+  }
   .popular-list .swiper-slide {
     width: 300px;
   }

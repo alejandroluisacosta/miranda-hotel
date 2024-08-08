@@ -48,6 +48,13 @@
             margin-bottom: 80px;
         }
         padding: 60px 2.5% 120px;
+        .swiper-wrapper {
+            gap: 3%;
+            display: grid !important;
+            place-items: center;
+            grid-template-columns: repeat(3, 1fr);
+            row-gap: 20px;
+        }
         .swiper-slide {
             width: 300px;
         }
