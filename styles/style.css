@@ -229,7 +229,7 @@ button {
 .header-container {
   width: 100%;
   position: fixed;
-  z-index: 5;
+  z-index: 11;
   background-color: white;
 }
 
@@ -643,6 +643,9 @@ ul {
   .rooms .icon-bar--mobile {
     display: none;
   }
+  .rooms .icon-bar--desktop {
+    display: flex;
+  }
   .rooms .swiper--rooms--desktop {
     display: block;
   }
@@ -1018,6 +1021,10 @@ ul {
 }
 .menu .icon {
   font-size: 12px;
+}
+.menu .single-image-container {
+  width: unset;
+  padding: unset;
 }
 
 @media only screen and (min-width: 1000px) {

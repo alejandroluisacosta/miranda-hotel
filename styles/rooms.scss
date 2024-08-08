@@ -26,6 +26,9 @@
         .icon-bar--mobile {
             display: none;
         }
+        .icon-bar--desktop {
+            display: flex;
+        }
         .swiper--rooms--desktop {
             display: block;
         }
