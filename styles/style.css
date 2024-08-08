@@ -148,18 +148,6 @@ button {
   width: 100%;
   height: 100%;
 }
-.swiper .swiper-button-prev,
-.swiper .swiper-button-next {
-  transform: translateY(-275%);
-  width: 32px;
-  height: 32px;
-  background-color: #BDAC8D;
-  color: white;
-}
-.swiper .swiper-button-prev::after,
-.swiper .swiper-button-next::after {
-  font-size: 10px;
-}
 .swiper .swiper-button-prev.disabled,
 .swiper .swiper-button-next.disabled {
   background-color: white;
@@ -167,6 +155,20 @@ button {
 }
 .swiper-pagination-bullet {
   background-color: var(--miranda-brown) !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  transform: translateY(-275%);
+  width: 32px;
+  height: 32px;
+  background-color: #BDAC8D;
+  color: white !important;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 10px !important;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -915,13 +917,17 @@ button {
 .menu__buttons-container {
   display: flex;
   justify-content: flex-end;
-  gap: 16px;
+  position: relative;
+  gap: 12.5%;
 }
 .menu__buttons-container--desktop {
   display: none;
 }
-.menu button {
-  padding: 13px 15px;
+.menu .button {
+  width: 45px;
+  height: 45px;
+  transform: unset;
+  position: relative;
 }
 .menu .icon {
   font-size: 12px;
@@ -932,6 +938,7 @@ button {
     padding-left: 5%;
     padding-right: 5%;
     position: relative;
+    margin-bottom: 120px;
   }
   .menu .donut {
     display: none;
@@ -955,11 +962,13 @@ button {
   }
   .menu__buttons-container--desktop {
     display: flex;
-    gap: 15%;
+    gap: 33%;
+    width: 15%;
+    justify-content: space-between;
   }
-  .menu button {
-    width: 45px;
-    height: 45px;
+  .menu .button {
+    width: 70px;
+    height: 70px;
   }
 }
 @media only screen and (min-width: 1250px) {
@@ -1010,6 +1019,7 @@ button {
   }
   .dish .description {
     margin-right: 5%;
+    font-size: 16px;
   }
   .dish .arrow {
     display: none;
@@ -1053,6 +1063,9 @@ button {
     place-items: center;
     grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
+  }
+  .carousel .swiper-slide.single-image-container {
+    padding-bottom: unset;
   }
 }
 @media only screen and (min-width: 1250px) {

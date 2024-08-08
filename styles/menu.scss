@@ -26,13 +26,17 @@
     &__buttons-container {
         display: flex;
         justify-content: flex-end;
-        gap: 16px;
+        position: relative;
+        gap: 12.5%;
         &--desktop {
             display: none;
         }
     }
-    button {
-        padding: 13px 15px;
+    .button {
+        width: 45px;
+        height: 45px;
+        transform: unset;
+        position: relative;
     }
     .icon {
         font-size: 12px;
@@ -44,6 +48,7 @@
         padding-left: 5%;
         padding-right: 5%;
         position: relative;
+        margin-bottom: 120px; 
         .donut {
             display: none;
             &--desktop {
@@ -65,13 +70,16 @@
             display: none;
             &--desktop {
                 display: flex;
-                gap: 15%;
+                gap: 33%;
+                width: 15%;
+                justify-content: space-between;
             }
         }
-        button {
-            width: 45px;
-            height: 45px;
+        .button {
+            width: 70px;
+            height: 70px;
         }
+
     }
 }
 

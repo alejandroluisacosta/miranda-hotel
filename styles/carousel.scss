@@ -23,6 +23,9 @@
             grid-template-columns: repeat(3, 1fr);
             row-gap: 20px;
         }
+        .swiper-slide.single-image-container {
+            padding-bottom: unset;
+        }
     }
 }
 
