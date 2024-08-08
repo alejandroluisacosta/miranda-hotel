@@ -632,15 +632,12 @@ ul {
     gap: 5%;
     margin-left: -10%;
   }
-  .rooms .swiper .image {
-    height: 500px !important;
-  }
   .rooms .swiper .room-description-card {
     max-width: 80%;
   }
   .rooms .swiper .swiper-button-next,
   .rooms .swiper .swiper-button-prev {
-    transform: translateY(-200%);
+    transform: translateY(-150%);
     width: 70px;
     height: 70px;
   }
@@ -649,6 +646,9 @@ ul {
   }
   .rooms .swiper .swiper-button-prev {
     left: 28.5%;
+  }
+  .rooms .swiper .single-image-container {
+    padding-bottom: 100%;
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -942,7 +942,7 @@ ul {
 }
 @media only screen and (min-width: 1600px) {
   .facilities .swiper--facilities {
-    width: 80%;
+    width: 85%;
   }
 }
 .menu {
@@ -1172,6 +1172,7 @@ ul {
     padding: 80px 5%;
     margin-left: 5%;
     margin-right: 5%;
+    margin-bottom: 60px;
   }
   .facts__fact {
     margin-bottom: 0;
