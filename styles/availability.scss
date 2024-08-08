@@ -36,8 +36,8 @@
         display: flex;
         justify-content: flex-start;
         align-items: center;
-        padding-left: 10%;
-        padding-right: 10%;
+        padding-left: 15%;
+        padding-right: 11%;
         .input-container {
             width: 30%;
         }
@@ -53,5 +53,11 @@
 
     .availability > :nth-child(2) {
         margin-right: 7.5%;
+    }
+}
+
+@media only screen and (min-width: 1600px){
+    .availability {
+        padding-left: 20%;
     }
 }

@@ -4,6 +4,10 @@
   --miranda-brown: #BDAC8D;
   --miranda-silver: #C2C2C2;
   --miranda-gray: #777777;
+  --padding-1000: 5%;
+  --padding-1250: 7.5%;
+  --padding-1600: 10%;
+  --padding-1750: 12.50;
 }
 
 html {
@@ -203,7 +207,7 @@ button {
 
 @media only screen and (min-width: 1000px) {
   .base {
-    padding-left: 10%;
+    padding-left: 15%;
   }
   .base .section-title {
     max-width: 450px;
@@ -407,8 +411,8 @@ ul {
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 15%;
+    padding-right: 11%;
   }
   .availability .input-container {
     width: 30%;
@@ -423,6 +427,11 @@ ul {
   }
   .availability > :nth-child(2) {
     margin-right: 7.5%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .availability {
+    padding-left: 20%;
   }
 }
 .about {
@@ -625,7 +634,7 @@ ul {
     height: 500px !important;
   }
   .rooms .swiper .room-description-card {
-    max-width: 60%;
+    max-width: 80%;
   }
   .rooms .swiper .swiper-button-next,
   .rooms .swiper .swiper-button-prev {
@@ -638,6 +647,11 @@ ul {
   }
   .rooms .swiper .swiper-button-prev {
     left: 28.5%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  .rooms .swiper .room-description-card {
+    max-width: 60%;
   }
 }
 .icon-bar {

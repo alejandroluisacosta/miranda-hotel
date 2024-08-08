@@ -42,7 +42,7 @@
                 height: 500px !important;
             }
             .room-description-card {
-                max-width: 60%;
+                max-width: 80%;
             }
             .swiper-button-next,
             .swiper-button-prev {
@@ -55,6 +55,16 @@
             }
             .swiper-button-prev {
                 left: 28.5%;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .rooms {
+        .swiper {
+            .room-description-card {
+                max-width: 60%;
             }
         }
     }
