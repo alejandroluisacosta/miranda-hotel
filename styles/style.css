@@ -1056,7 +1056,6 @@ ul {
   }
   .menu__buttons-container--desktop {
     display: flex;
-    gap: 33%;
     width: 15%;
     justify-content: space-between;
   }
@@ -1071,10 +1070,10 @@ ul {
     padding-right: 7.5%;
   }
 }
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1750px) {
   .menu {
-    padding-left: 12.5%;
-    padding-right: 12.5%;
+    padding-left: 18.5%;
+    padding-right: 18.5%;
   }
 }
 .dish {
@@ -1130,6 +1129,7 @@ ul {
   }
   .dish:hover .arrow {
     display: block;
+    margin-left: auto;
   }
 }
 .carousel {
@@ -1168,10 +1168,10 @@ ul {
     padding-right: 7.5%;
   }
 }
-@media only screen and (min-width: 1600px) {
+@media only screen and (min-width: 1750px) {
   .carousel {
-    padding-left: 12.5%;
-    padding-right: 12.5%;
+    padding-left: 18.5%;
+    padding-right: 18.5%;
   }
 }
 .facts {
@@ -1229,8 +1229,8 @@ ul {
 }
 @media only screen and (min-width: 1750px) {
   .facts {
-    margin-left: 12.5%;
-    margin-right: 12.5%;
+    margin-left: 18.5%;
+    margin-right: 18.5%;
   }
 }
 .footer {
