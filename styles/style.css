@@ -1375,37 +1375,36 @@ ul {
 
 .contact-image-container {
   text-align: center;
-  margin-bottom: 60px;
+  margin: 0 5% 60px;
 }
-.contact-image-container img {
-  width: 90%;
+
+.single-image-container--contact {
+  padding-bottom: 200px;
 }
 
 @media only screen and (min-width: 1000px) {
   .contact-image-container {
-    padding-left: 5%;
-    padding-right: 5%;
-  }
-  .contact-image-container img {
-    width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-bottom: 30%;
   }
 }
 @media only screen and (min-width: 1330px) {
   .contact-image-container {
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 @media only screen and (min-width: 1550px) {
   .contact-image-container {
-    padding-left: 15%;
-    padding-right: 15%;
+    margin-left: 15%;
+    margin-right: 15%;
   }
 }
 @media only screen and (min-width: 1760px) {
   .contact-image-container {
-    padding-left: 18.5%;
-    padding-right: 18.5%;
+    margin-left: 18.5%;
+    margin-right: 18.5%;
   }
 }
 .legal-info {
