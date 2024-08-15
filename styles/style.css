@@ -943,13 +943,11 @@ ul {
     display: grid !important;
     place-items: center;
     grid-template-columns: repeat(3, 1fr);
-    row-gap: 20px;
+    gap: 20px;
   }
   .facilities .swiper .slide-container {
     position: relative;
     box-sizing: border-box;
-    width: 250px;
-    height: 420px;
   }
   .facilities .swiper .slide-container .number {
     top: -5.5%;
@@ -962,10 +960,6 @@ ul {
 @media only screen and (min-width: 1250px) {
   .facilities .swiper--facilities {
     width: 90%;
-  }
-  .facilities .swiper .slide-container {
-    width: 375px;
-    height: 370px;
   }
 }
 @media only screen and (min-width: 1600px) {
@@ -1135,10 +1129,18 @@ ul {
 .carousel {
   text-align: center;
   margin-bottom: 90px;
+  padding: 0 5%;
 }
-.carousel img {
+.carousel .single-image-container {
   width: 90%;
-  height: 335px;
+  height: 335px !important;
+  padding-bottom: unset;
+}
+.carousel .swiper-wrapper {
+  height: unset;
+}
+.carousel .swiper-pagination {
+  bottom: -3px !important;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -1158,8 +1160,8 @@ ul {
     grid-template-columns: repeat(3, 1fr);
     row-gap: 20px;
   }
-  .carousel .swiper-slide.single-image-container {
-    padding-bottom: unset;
+  .carousel .single-image-container {
+    width: 100%;
   }
 }
 @media only screen and (min-width: 1250px) {
@@ -1494,6 +1496,7 @@ ul {
   .banner--contact {
     padding-left: 5%;
     padding-right: 5%;
+    margin-bottom: 60px;
   }
   .banner--room-details {
     margin-bottom: 190px;
@@ -1529,7 +1532,7 @@ ul {
   text-align: center;
 }
 .about-video video {
-  width: 100%;
+  width: 80%;
   margin-bottom: 36px;
 }
 .about-video .text {
@@ -1549,7 +1552,7 @@ ul {
   }
   .about-video .text {
     padding: 0 4.75%;
-    font-size: 72px;
+    font-size: 60px;
     line-height: 88.99px;
     letter-spacing: -2.1600000858px;
     margin-bottom: 75px;
@@ -1560,7 +1563,7 @@ ul {
   grid-template-columns: repeat(2, 1fr);
   padding: 0 5.5%;
   margin-bottom: 50px;
-  justify-items: center;
+  justify-content: space-between;
   align-items: center;
 }
 .about-features .feature {
@@ -1592,8 +1595,6 @@ ul {
 @media only screen and (min-width: 1000px) {
   .about-features {
     display: flex;
-    justify-content: space-between;
-    padding: 0 5%;
     margin-bottom: 80px;
   }
   .about-features .feature {
@@ -1617,6 +1618,7 @@ ul {
   .about-features {
     margin-left: 18.75%;
     margin-right: 18.75%;
+    padding: unset;
   }
 }
 .restaurant {

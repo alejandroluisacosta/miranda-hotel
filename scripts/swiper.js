@@ -82,9 +82,7 @@ if (window.innerWidth < 1000) {
       pagination: {
         el: '.swiper-pagination',
       },
-
-      autoplay: {
-        
-      },  
+      
+      autoplay: true,
     });
 }

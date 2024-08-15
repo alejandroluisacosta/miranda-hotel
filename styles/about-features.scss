@@ -3,7 +3,7 @@
     grid-template-columns: repeat(2, 1fr);
     padding: 0 5.5%;
     margin-bottom: 50px;
-    justify-items: center;
+    justify-content: space-between;
     align-items: center;
     .feature {
         display: flex;
@@ -35,8 +35,7 @@
 @media only screen and (min-width: 1000px) {
     .about-features {
         display: flex;
-        justify-content: space-between;
-        padding: 0 5%;
+        // padding: unset;
         margin-bottom: 80px;
         .feature {
             width: 200px;
@@ -62,5 +61,6 @@
     .about-features {
         margin-left: 18.75%;
         margin-right: 18.75%;
+        padding: unset;
     }
 }

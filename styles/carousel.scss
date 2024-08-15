@@ -1,9 +1,17 @@
 .carousel {
     text-align: center;
     margin-bottom: 90px;
-    img {
+    padding: 0 5%;
+    .single-image-container {
         width: 90%;
-        height: 335px;
+        height: 335px !important;
+        padding-bottom: unset;
+    }
+    .swiper-wrapper {
+        height: unset;
+    }
+    .swiper-pagination {
+        bottom: -3px !important;
     }
 }
 
@@ -23,8 +31,8 @@
             grid-template-columns: repeat(3, 1fr);
             row-gap: 20px;
         }
-        .swiper-slide.single-image-container {
-            padding-bottom: unset;
+        .single-image-container {
+            width: 100%;
         }
     }
 }
