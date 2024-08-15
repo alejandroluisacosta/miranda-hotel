@@ -1018,7 +1018,7 @@ ul {
 }
 .menu .single-image-container {
   width: 120px;
-  height: 120px;
+  height: 150px;
   margin-right: 30px;
   padding: unset;
 }
@@ -1058,6 +1058,9 @@ ul {
   .menu .button {
     width: 70px;
     height: 70px;
+  }
+  .menu .single-image-container {
+    height: 120px;
   }
 }
 @media only screen and (min-width: 1250px) {

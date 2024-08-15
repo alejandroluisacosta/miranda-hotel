@@ -43,7 +43,7 @@
     }
     .single-image-container {
         width: 120px;
-        height: 120px;
+        height: 150px;
         margin-right: 30px;
         padding: unset;
     }
@@ -85,6 +85,9 @@
             height: 70px;
         }
 
+        .single-image-container {
+            height: 120px;
+        }
     }
 }
 
