@@ -86,6 +86,7 @@ button {
   background-color: #BEAD8E;
   color: white;
   border: unset;
+  cursor: pointer;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -205,6 +206,7 @@ button {
 .base__button--2 {
   background-color: unset;
   border: 2px solid rgba(255, 255, 255, 0.3294117647);
+  padding: 23px 53px;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -565,6 +567,7 @@ ul {
   height: 300px;
   padding: unset;
   min-height: unset;
+  margin-bottom: 52px;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -614,6 +617,9 @@ ul {
   .brand-features .icon--diluted {
     right: 0;
   }
+  .brand-features .single-image-container {
+    margin-bottom: unset;
+  }
 }
 .rooms {
   text-align: center;
@@ -627,6 +633,9 @@ ul {
 }
 .rooms .swiper--rooms--desktop {
   display: none;
+}
+.rooms .swiper-slide {
+  cursor: pointer;
 }
 .rooms .swiper-button-next,
 .rooms .swiper-button-prev {
@@ -1788,6 +1797,9 @@ ul {
 .room-list {
   padding: 0 5%;
   text-align: center;
+}
+.room-list__room {
+  cursor: pointer;
 }
 .room-list img {
   width: 335px;

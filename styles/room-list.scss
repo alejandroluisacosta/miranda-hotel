@@ -1,6 +1,9 @@
 .room-list {
     padding: 0 5%;
     text-align: center;
+    &__room {
+        cursor: pointer;
+    }
     img {
         width: 335px;
         height: 220px;

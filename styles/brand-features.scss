@@ -56,6 +56,7 @@
         height: 300px;
         padding: unset;
         min-height: unset;
+        margin-bottom: 52px;
     }
 }
 
@@ -105,6 +106,9 @@
         }
         .icon--diluted {
             right: 0;
+        }
+        .single-image-container {
+            margin-bottom: unset;
         }
     }
 }

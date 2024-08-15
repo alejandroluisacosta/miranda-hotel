@@ -10,6 +10,9 @@
     .swiper--rooms--desktop {
         display: none;
     }
+    .swiper-slide {
+        cursor: pointer;
+    }
     .swiper-button-next,
     .swiper-button-prev {
         width: 45px;
