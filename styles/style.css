@@ -1017,7 +1017,9 @@ ul {
   font-size: 12px;
 }
 .menu .single-image-container {
-  width: unset;
+  width: 120px;
+  height: 120px;
+  margin-right: 30px;
   padding: unset;
 }
 
