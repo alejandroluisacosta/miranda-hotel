@@ -2352,6 +2352,9 @@ ul {
     padding: 60px;
     border-top: 6px solid var(--miranda-brown);
   }
+  .room-offer .amenities-container {
+    min-width: 340px;
+  }
   .room-offer .section-title {
     max-width: 70%;
   }
