@@ -544,11 +544,6 @@ ul {
   width: 60px;
   height: 50px;
 }
-.brand-features__feature-container img {
-  width: 270px;
-  height: 300px;
-  margin-bottom: 54px;
-}
 .brand-features__feature-container .title {
   font-family: "Old Standard TT";
   font-weight: 400;
@@ -564,6 +559,12 @@ ul {
   font-weight: 400;
   line-height: 22px;
   max-width: 200px;
+}
+.brand-features .single-image-container {
+  width: 270px;
+  height: 300px;
+  padding: unset;
+  min-height: unset;
 }
 
 @media only screen and (min-width: 1000px) {
